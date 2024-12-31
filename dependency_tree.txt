@@ -1,0 +1,4357 @@
+Dependency Tree:
+================
+
+📄 .github\tests\multipleWorkers.py
+  ├─📊 Function: login_and_navigate
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\DocumentManagement\get\doDelete.py
+  ├─📊 Function: doDelete
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\DocumentManagement\get\doGet.py
+  ├─📊 Function: doGet
+  │  ├─💾 SP: stp_getDocumentContent
+  │  │  ├─🗃️ Table: [documentfile]
+  │  │  ├─🗃️ Table: [documents]
+  │  │  └─🗃️ Table: interfering
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\DocumentManagement\get\doHead.py
+  ├─📊 Function: doHead
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\DocumentManagement\get\doOptions.py
+  ├─📊 Function: doOptions
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\DocumentManagement\get\doPatch.py
+  ├─📊 Function: doPatch
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\DocumentManagement\get\doPost.py
+  ├─📊 Function: doPost
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\DocumentManagement\get\doPut.py
+  ├─📊 Function: doPut
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\DocumentManagement\get\doTrace.py
+  ├─📊 Function: doTrace
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cicd\tags\doDelete.py
+  ├─📊 Function: doDelete
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cicd\tags\doGet.py
+  ├─📊 Function: doGet
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cicd\tags\doHead.py
+  ├─📊 Function: doHead
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cicd\tags\doOptions.py
+  ├─📊 Function: doOptions
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cicd\tags\doPatch.py
+  ├─📊 Function: doPatch
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cicd\tags\doPost.py
+  ├─📊 Function: doPost
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cicd\tags\doPut.py
+  ├─📊 Function: doPut
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cicd\tags\doTrace.py
+  ├─📊 Function: doTrace
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\assetmap\doDelete.py
+  ├─📊 Function: doDelete
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\assetmap\doGet.py
+  ├─📊 Function: doGet
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\assetmap\doHead.py
+  ├─📊 Function: doHead
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\assetmap\doOptions.py
+  ├─📊 Function: doOptions
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\assetmap\doPatch.py
+  ├─📊 Function: doPatch
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\assetmap\doPost.py
+  ├─📊 Function: doPost
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\assetmap\doPut.py
+  ├─📊 Function: doPut
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\assetmap\doTrace.py
+  ├─📊 Function: doTrace
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\metrics\doDelete.py
+  ├─📊 Function: doDelete
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\metrics\doGet.py
+  ├─📊 Function: doGet
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\metrics\doHead.py
+  ├─📊 Function: doHead
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\metrics\doOptions.py
+  ├─📊 Function: doOptions
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\metrics\doPatch.py
+  ├─📊 Function: doPatch
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\metrics\doPost.py
+  ├─📊 Function: doPost
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\metrics\doPut.py
+  ├─📊 Function: doPut
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\metrics\doTrace.py
+  ├─📊 Function: doTrace
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\model\doDelete.py
+  ├─📊 Function: doDelete
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\model\doGet.py
+  ├─📊 Function: doGet
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\model\doHead.py
+  ├─📊 Function: doHead
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\model\doOptions.py
+  ├─📊 Function: doOptions
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\model\doPatch.py
+  ├─📊 Function: doPatch
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\model\doPost.py
+  ├─📊 Function: doPost
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\model\doPut.py
+  ├─📊 Function: doPut
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\model\doTrace.py
+  ├─📊 Function: doTrace
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\refresh\doDelete.py
+  ├─📊 Function: doDelete
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\refresh\doGet.py
+  ├─📊 Function: doGet
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\refresh\doHead.py
+  ├─📊 Function: doHead
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\refresh\doOptions.py
+  ├─📊 Function: doOptions
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\refresh\doPatch.py
+  ├─📊 Function: doPatch
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\refresh\doPost.py
+  ├─📊 Function: doPost
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\refresh\doPut.py
+  ├─📊 Function: doPut
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\refresh\doTrace.py
+  ├─📊 Function: doTrace
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\save\doDelete.py
+  ├─📊 Function: doDelete
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\save\doGet.py
+  ├─📊 Function: doGet
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\save\doHead.py
+  ├─📊 Function: doHead
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\save\doOptions.py
+  ├─📊 Function: doOptions
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\save\doPatch.py
+  ├─📊 Function: doPatch
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\save\doPost.py
+  ├─📊 Function: doPost
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\save\doPut.py
+  ├─📊 Function: doPut
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\save\doTrace.py
+  ├─📊 Function: doTrace
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\user\doDelete.py
+  ├─📊 Function: doDelete
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\user\doGet.py
+  ├─📊 Function: doGet
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\user\doHead.py
+  ├─📊 Function: doHead
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\user\doOptions.py
+  ├─📊 Function: doOptions
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\user\doPatch.py
+  ├─📊 Function: doPatch
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\user\doPost.py
+  ├─📊 Function: doPost
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\user\doPut.py
+  ├─📊 Function: doPut
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\cytoscape\routes\user\doTrace.py
+  ├─📊 Function: doTrace
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\getUnitTests\doDelete.py
+  ├─📊 Function: doDelete
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\getUnitTests\doGet.py
+  ├─📊 Function: doGet
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\getUnitTests\doHead.py
+  ├─📊 Function: doHead
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\getUnitTests\doOptions.py
+  ├─📊 Function: doOptions
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\getUnitTests\doPatch.py
+  ├─📊 Function: doPatch
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\getUnitTests\doPost.py
+  ├─📊 Function: doPost
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\getUnitTests\doPut.py
+  ├─📊 Function: doPut
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\com.inductiveautomation.webdev\resources\getUnitTests\doTrace.py
+  ├─📊 Function: doTrace
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\decorators\code.py
+  ├─📊 Function: error_log
+  │  └─(No stored procedures found)
+  ├─📊 Function: errorCheck
+  │  └─(No stored procedures found)
+  ├─📊 Function: timeit
+  │  └─(No stored procedures found)
+  ├─📊 Function: timed
+  │  └─(No stored procedures found)
+  ├─📊 Function: dump_args
+  │  └─(No stored procedures found)
+  ├─📊 Function: echo_func
+  │  └─(No stored procedures found)
+  ├─📊 Function: cache_result
+  │  └─(No stored procedures found)
+  ├─📊 Function: wrapper
+  │  └─(No stored procedures found)
+  ├─📊 Function: retry
+  │  └─(No stored procedures found)
+  ├─📊 Function: decorator
+  │  └─(No stored procedures found)
+  ├─📊 Function: rate_limit
+  │  └─(No stored procedures found)
+  ├─📊 Function: debug
+  │  └─(No stored procedures found)
+  ├─📊 Function: deprecated
+  │  └─(No stored procedures found)
+  ├─📊 Function: log_to_database
+  │  ├─💾 SP: stp_InsertErrorLog
+  │  │  └─🗃️ Table: error_log
+  ├─📊 Function: f1
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\gpa\data\code.py
+  ├─📊 Function: datasetToJson
+  │  └─(No stored procedures found)
+  ├─📊 Function: jsonToDataset
+  │  └─(No stored procedures found)
+  ├─📊 Function: swapDataKeys
+  │  └─(No stored procedures found)
+  ├─📊 Function: swapKeys
+  │  └─(No stored procedures found)
+  ├─📊 Function: swapKey
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\gpa\frontEnd\documentManagement\code.py
+  ├─📊 Function: createFolder
+  │  ├─💾 SP: stp_addDocumentFolder
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  ├─🗃️ Table: documentfolders
+  │  │  ├─🗃️ Table: documentsfolders
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_documentFolderExist
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: createTag
+  │  ├─💾 SP: stp_updateDocumentModified
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  │  ├─💾 SP: stp_addDocumentTag
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: documenttags
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_documentTagsExist
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteFolder
+  │  ├─💾 SP: stp_deleteDocumentFolder
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  ├─🗃️ Table: documentfolders
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: graveyarddocumentfolders
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: uploadFile
+  │  ├─💾 SP: stp_addDocumentContent
+  │  │  ├─🗃️ Table: [documentfile]
+  │  │  ├─🗃️ Table: documentfile
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getRolesAccess
+  │  │  ├─🗃️ Table: @temptable
+  │  │  ├─🗃️ Table: STRING_SPLIT
+  │  │  ├─🗃️ Table: [rolesaccess]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: rolesaccess
+  │  │  └─🗃️ Table: the
+  │  ├─💾 SP: stp_documentExist
+  │  │  ├─🗃️ Table: [documents]
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getDocumentStatus
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_addDocument
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getUsersAccess
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: usersaccess
+  │  ├─💾 SP: stp_addRolesUsersDocumentsLink
+  │  │  ├─🗃️ Table: [rolesusersdocumentslink]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: rolesusersdocumentslink
+  │  ├─💾 SP: stp_addDocumentRevision
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getDocuments
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getDocumentsByID
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: downloadFile
+  │  ├─💾 SP: stp_getDocumentContent
+  │  │  ├─🗃️ Table: [documentfile]
+  │  │  ├─🗃️ Table: [documents]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteAllDocuments
+  │  ├─💾 SP: stp_deleteDocument
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getRolesUsersDocumentsLinkByDocumentID
+  │  │  ├─🗃️ Table: [rolesusersdocumentslink]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: rolesusersdocumentslink
+  │  ├─💾 SP: stp_deleteRolesUsersDocumentsLink
+  │  │  ├─🗃️ Table: [rolesusersdocumentslink]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: rolesaccess
+  │  │  └─🗃️ Table: rolesusersdocumentslink
+  │  ├─💾 SP: stp_deleteDocumentTagAll
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  ├─🗃️ Table: documenttags
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_deleteDocumentContent
+  │  │  ├─🗃️ Table: [documentfile]
+  │  │  ├─🗃️ Table: documentfile
+  │  │  ├─🗃️ Table: documentsfile
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getDocuments
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getDocumentsByID
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteDocument
+  │  ├─💾 SP: stp_deleteDocument
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getRolesUsersDocumentsLinkByDocumentID
+  │  │  ├─🗃️ Table: [rolesusersdocumentslink]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: rolesusersdocumentslink
+  │  ├─💾 SP: stp_deleteRolesUsersDocumentsLink
+  │  │  ├─🗃️ Table: [rolesusersdocumentslink]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: rolesaccess
+  │  │  └─🗃️ Table: rolesusersdocumentslink
+  │  ├─💾 SP: stp_deleteDocumentTagAll
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  ├─🗃️ Table: documenttags
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_addRolesUsersDocumentsLink
+  │  │  ├─🗃️ Table: [rolesusersdocumentslink]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: rolesusersdocumentslink
+  │  ├─💾 SP: stp_deleteDocumentContent
+  │  │  ├─🗃️ Table: [documentfile]
+  │  │  ├─🗃️ Table: documentfile
+  │  │  ├─🗃️ Table: documentsfile
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getDocumentsByID
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteTag
+  │  ├─💾 SP: stp_updateDocumentModified
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  │  ├─💾 SP: stp_deleteDocumentTag
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  ├─🗃️ Table: documenttags
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: setValue
+  │  ├─💾 SP: stp_updateDocumentName
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  │  ├─💾 SP: stp_documentExist
+  │  │  ├─🗃️ Table: [documents]
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_updateDocumentDescription
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  │  ├─💾 SP: stp_updateDocumentNotes
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: changeFolder
+  │  ├─💾 SP: stp_updateDocumentFolder
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: getDocument
+  │  └─(No stored procedures found)
+  ├─📊 Function: getDocumentById
+  │  ├─💾 SP: stp_getDocumentsByID
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getUser
+  │  └─(No stored procedures found)
+  ├─📊 Function: clearDocument
+  │  └─(No stored procedures found)
+  ├─📊 Function: selectDefaultFolder
+  │  └─(No stored procedures found)
+  ├─📊 Function: selectFolder
+  │  └─(No stored procedures found)
+  ├─📊 Function: selectFolderPath
+  │  └─(No stored procedures found)
+  ├─📊 Function: sendToGraveyard
+  │  ├─💾 SP: stp_getDocumentContent
+  │  │  ├─🗃️ Table: [documentfile]
+  │  │  ├─🗃️ Table: [documents]
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_deleteDocument
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_addGraveyardDocumentFolder
+  │  │  ├─🗃️ Table: [graveyarddocumentfolders]
+  │  │  ├─🗃️ Table: graveyarddocumentfolders
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getDocumentTags
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_addGraveyardDocument
+  │  │  ├─🗃️ Table: [graveyarddocuments]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: graveyarddocument
+  │  │  ├─🗃️ Table: graveyarddocuments
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_deleteDocumentTagAll
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  ├─🗃️ Table: documenttags
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getDocumentFolder
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  ├─🗃️ Table: documentsfolders
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_deleteDocumentContent
+  │  │  ├─🗃️ Table: [documentfile]
+  │  │  ├─🗃️ Table: documentfile
+  │  │  ├─🗃️ Table: documentsfile
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_addGraveyardDocumentContent
+  │  │  ├─🗃️ Table: [graveyarddocumentfile]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: graveyarddocumentfile
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getDocumentsByID
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_addGraveyardDocumentTag
+  │  │  ├─🗃️ Table: [graveyarddocumenttags]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: graveyarddocumenttags
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_graveyardDocumentExist
+  │  │  ├─🗃️ Table: [graveyarddocuments]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: refreshFolders
+  │  └─(No stored procedures found)
+  ├─📊 Function: refreshDocuments
+  │  └─(No stored procedures found)
+  ├─📊 Function: refreshCurrentDocument
+  │  └─(No stored procedures found)
+  ├─📊 Function: revertToPreviousVersion
+  │  └─(No stored procedures found)
+  ├─📊 Function: sizeToString
+  │  └─(No stored procedures found)
+  ├─📊 Function: message
+  │  └─(No stored procedures found)
+  ├─📊 Function: addUpdateRoleAccess
+  │  ├─💾 SP: stp_addRolesAccess
+  │  │  ├─🗃️ Table: [rolesaccess]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: rolesaccess
+  │  ├─💾 SP: stp_getRolesAccess
+  │  │  ├─🗃️ Table: @temptable
+  │  │  ├─🗃️ Table: STRING_SPLIT
+  │  │  ├─🗃️ Table: [rolesaccess]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: rolesaccess
+  │  │  └─🗃️ Table: the
+  │  ├─💾 SP: stp_updateRolesAccess
+  │  │  ├─🗃️ Table: [rolesaccess]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: rolesaccess
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: addUpdateUserAccess
+  │  ├─💾 SP: stp_getUsersAccess
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: usersaccess
+  │  ├─💾 SP: stp_updateUsersAccess
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: statement
+  │  │  └─🗃️ Table: usersaccess
+  │  ├─💾 SP: stp_addUsersAccess
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: usersaccess
+  ├─📊 Function: getUserAccess
+  │  ├─💾 SP: stp_getUsersAccess
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: usersaccess
+  │  ├─💾 SP: stp_getRolesAccess
+  │  │  ├─🗃️ Table: @temptable
+  │  │  ├─🗃️ Table: STRING_SPLIT
+  │  │  ├─🗃️ Table: [rolesaccess]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: rolesaccess
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: encryptDocument
+  │  └─(No stored procedures found)
+  ├─📊 Function: decryptDocument
+  │  └─(No stored procedures found)
+  ├─📊 Function: getKey
+  │  └─(No stored procedures found)
+  ├─📊 Function: addUpdateEmail
+  │  ├─💾 SP: stp_getEmails
+  │  │  ├─🗃️ Table: [emails]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_addEmail
+  │  │  ├─🗃️ Table: [emails]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: emails
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_updateEmail
+  │  │  ├─🗃️ Table: [emails]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: emails
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: sendEmail
+  │  └─(No stored procedures found)
+  ├─📊 Function: isValidEmail
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\gpa\frontEnd\localUI\code.py
+  ├─📊 Function: getComponentStatus
+  │  └─(No stored procedures found)
+  ├─📊 Function: getRateStatus
+  │  └─(No stored procedures found)
+  ├─📊 Function: getOutlineColor
+  │  └─(No stored procedures found)
+  ├─📊 Function: splitPath
+  │  └─(No stored procedures found)
+  ├─📊 Function: getFinalState
+  │  └─(No stored procedures found)
+  ├─📊 Function: getDashboardArray
+  │  └─(No stored procedures found)
+  ├─📊 Function: convert
+  │  └─(No stored procedures found)
+  ├─📊 Function: throwError
+  │  └─(No stored procedures found)
+  ├─📊 Function: throwSuccess
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAssetMapData
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\gpa\frontEnd\staffManagement\code.py
+  ├─📊 Function: addUpdateCertification
+  │  ├─💾 SP: stp_addCertification
+  │  │  ├─🗃️ Table: [certifications]
+  │  │  ├─🗃️ Table: certifications
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_updateCertification
+  │  │  ├─🗃️ Table: [certifications]
+  │  │  ├─🗃️ Table: certifications
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  │  ├─💾 SP: stp_getCertifications
+  │  │  ├─🗃️ Table: [certifications]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: addUpdateRequirement
+  │  ├─💾 SP: stp_addRequirement
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getRequirements
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_updateRequirement
+  │  │  └─(No tables found)
+  ├─📊 Function: addUpdateTask
+  │  ├─💾 SP: stp_updateTask
+  │  │  ├─🗃️ Table: [tasks]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: statement
+  │  │  └─🗃️ Table: tasks
+  │  ├─💾 SP: stp_getTaskFrequencies
+  │  │  ├─🗃️ Table: [taskfrequency]
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getTaskTypes
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getTasks
+  │  │  ├─🗃️ Table: [taskfrequency]
+  │  │  ├─🗃️ Table: [tasks]
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_addTask
+  │  │  ├─🗃️ Table: [tasks]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: tasks
+  ├─📊 Function: addUpdateTaskType
+  │  ├─💾 SP: stp_getTaskTypes
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_addTaskType
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: tasktypes
+  │  ├─💾 SP: stp_updateTaskType
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: statement
+  │  │  └─🗃️ Table: tasktypes
+  ├─📊 Function: addUpdateAssignedTask
+  │  ├─💾 SP: stp_getAssignedTasks
+  │  │  ├─🗃️ Table: [assignedtasks]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [taskfrequency]
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_addAssignedTask
+  │  │  ├─🗃️ Table: [assignedtasks]
+  │  │  ├─🗃️ Table: assignedtasks
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: tasks
+  ├─📊 Function: updateUserTaskLink
+  │  ├─💾 SP: stp_updateUserTaskLink
+  │  │  └─(No tables found)
+  ├─📊 Function: message
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\gpa\gatewayEvents\code.py
+  ├─📊 Function: updateOnSave
+  │  └─(No stored procedures found)
+  ├─📊 Function: copy_files_and_directories
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\gpa\tag\code.py
+  ├─📊 Function: browse
+  │  └─(No stored procedures found)
+  ├─📊 Function: isFolder
+  │  └─(No stored procedures found)
+  ├─📊 Function: isUDT
+  │  └─(No stored procedures found)
+  ├─📊 Function: isTag
+  │  └─(No stored procedures found)
+  ├─📊 Function: isProperty
+  │  └─(No stored procedures found)
+  ├─📊 Function: getType
+  │  └─(No stored procedures found)
+  ├─📊 Function: setType
+  │  └─(No stored procedures found)
+  ├─📊 Function: getDataType
+  │  └─(No stored procedures found)
+  ├─📊 Function: setDataType
+  │  └─(No stored procedures found)
+  ├─📊 Function: getPath
+  │  └─(No stored procedures found)
+  ├─📊 Function: setPath
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAttributes
+  │  └─(No stored procedures found)
+  ├─📊 Function: setAttributes
+  │  └─(No stored procedures found)
+  ├─📊 Function: getName
+  │  └─(No stored procedures found)
+  ├─📊 Function: setName
+  │  └─(No stored procedures found)
+  ├─📊 Function: checkValue
+  │  └─(No stored procedures found)
+  ├─📊 Function: getValue
+  │  └─(No stored procedures found)
+  ├─📊 Function: setValue
+  │  └─(No stored procedures found)
+  ├─📊 Function: getValueSource
+  │  └─(No stored procedures found)
+  ├─📊 Function: setValueSource
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTypeId
+  │  └─(No stored procedures found)
+  ├─📊 Function: setTypeId
+  │  └─(No stored procedures found)
+  ├─📊 Function: hasChildren
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTags
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTagPaths
+  │  └─(No stored procedures found)
+  ├─📊 Function: clearTag
+  │  └─(No stored procedures found)
+  ├─📊 Function: clearTags
+  │  └─(No stored procedures found)
+  ├─📊 Function: swapTags
+  │  └─(No stored procedures found)
+  ├─📊 Function: moveTags
+  │  └─(No stored procedures found)
+  ├─📊 Function: moveTagsValues
+  │  └─(No stored procedures found)
+  ├─📊 Function: replace
+  │  └─(No stored procedures found)
+  ├─📊 Function: makePath
+  │  └─(No stored procedures found)
+  ├─📊 Function: exists
+  │  └─(No stored procedures found)
+  ├─📊 Function: callback
+  │  └─(No stored procedures found)
+  ├─📊 Function: readAsync
+  │  └─(No stored procedures found)
+  ├─📊 Function: readBlocking
+  │  └─(No stored procedures found)
+  ├─📊 Function: readValuesBlocking
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeAsync
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeBlocking
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\gpa\timeRanges\code.py
+  ├─📊 Function: getCurrentShiftTimes
+  │  └─(No stored procedures found)
+  ├─📊 Function: secondsToDateString
+  │  └─(No stored procedures found)
+  ├─📊 Function: minutesTohms
+  │  └─(No stored procedures found)
+  ├─📊 Function: getDefault
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLastHour
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLast3Hour
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLastShift
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLastDay
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLastWeek
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLast4Weeks
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLastMonth
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLastQuater
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLast6Months
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLastYear
+  │  └─(No stored procedures found)
+  ├─📊 Function: getCurrentHour
+  │  └─(No stored procedures found)
+  ├─📊 Function: getCurrent3hours
+  │  └─(No stored procedures found)
+  ├─📊 Function: getCurrentShift
+  │  └─(No stored procedures found)
+  ├─📊 Function: getCurrentDay
+  │  └─(No stored procedures found)
+  ├─📊 Function: getCurrentWeek
+  │  └─(No stored procedures found)
+  ├─📊 Function: getCurrent4Weeks
+  │  └─(No stored procedures found)
+  ├─📊 Function: getCurrentMonth
+  │  └─(No stored procedures found)
+  ├─📊 Function: getCurrentQuater
+  │  └─(No stored procedures found)
+  ├─📊 Function: getCurrent6Months
+  │  └─(No stored procedures found)
+  ├─📊 Function: getCurrentYear
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\gpa\utils\code.py
+  ├─📊 Function: stripHTML
+  │  └─(No stored procedures found)
+  ├─📊 Function: clipboard
+  │  └─(No stored procedures found)
+  ├─📊 Function: retarget
+  │  └─(No stored procedures found)
+  ├─📊 Function: translateTable
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\logger\code.py
+  ├─📊 Function: generateLoggerMessage
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\_template\calcs\code.py
+  ├─📊 Function: testFunction
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\_template\periodic\code.py
+  ├─📊 Function: testFunction
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\_template\sp\code.py
+  ├─📊 Function: testFunction
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\assetMap\sp\code.py
+  ├─📊 Function: addEditNode
+  │  ├─💾 SP: stp_addEditNode
+  │  │  └─(No tables found)
+  ├─📊 Function: addEditEdge
+  │  ├─💾 SP: stp_addEditEdge
+  │  │  └─(No tables found)
+
+📄 mes_gateway\ignition\script-python\mes\config\equipment\code.py
+  ├─📊 Function: buildProductionModel
+  │  └─(No stored procedures found)
+  ├─📊 Function: assetAdd
+  │  ├─💾 SP: stp_assetAdd
+  │  │  └─(No tables found)
+  ├─📊 Function: assetDisable
+  │  ├─💾 SP: stp_setEquipmentEnable
+  │  │  └─(No tables found)
+  ├─📊 Function: assetEdit
+  │  └─(No stored procedures found)
+  ├─📊 Function: deleteEquipment
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\config\getAssets\code.py
+  ├─📊 Function: getSiteID
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAllLinesForSite
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLinePaths
+  │  ├─💾 SP: stp_getLinePaths
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getAllLinePaths
+  │  ├─💾 SP: stp_getAllLinePaths
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getAllCellsForSite
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAllAreasForSite
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAllGroupsForArea
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAllLinesForArea
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAreaEqPaths
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\config\getConfig\code.py
+  ├─📊 Function: TestFunction
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\config\sp\code.py
+  ├─📊 Function: disableCurrentShift
+  │  ├─💾 SP: stp_addArea
+  │  │  ├─🗃️ Table: [areaconfig]
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: siteconfig
+  │  │  └─🗃️ Table: sites
+  │  ├─💾 SP: stp_disableCurrentShift
+  │  │  ├─🗃️ Table: lineshifts
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: addArea
+  │  ├─💾 SP: stp_addArea
+  │  │  ├─🗃️ Table: [areaconfig]
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: siteconfig
+  │  │  └─🗃️ Table: sites
+  ├─📊 Function: addEnterprise
+  │  ├─💾 SP: stp_addEnterprise
+  │  │  ├─🗃️ Table: [enterprises]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: addCell
+  │  ├─💾 SP: stp_addCell
+  │  │  ├─🗃️ Table: [cellconfig]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: addLine
+  │  ├─💾 SP: stp_addLine
+  │  │  ├─🗃️ Table: [lineconfig]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [states]
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_AddLine
+  │  │  └─(No tables found)
+  ├─📊 Function: addSite
+  │  ├─💾 SP: stp_addSite
+  │  │  ├─🗃️ Table: [siteconfig]
+  │  │  ├─🗃️ Table: [sites]
+  │  │  ├─🗃️ Table: enterprises
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: setEquipmentEnable
+  │  ├─💾 SP: stp_setEquipmentEnable
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_setEnable
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: enterprises
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: lines
+  │  │  └─🗃️ Table: sites
+  ├─📊 Function: deleteScrapReason
+  │  └─(No stored procedures found)
+  ├─📊 Function: deleteDowntimeCategory
+  │  └─(No stored procedures found)
+  ├─📊 Function: deleteStateThreshold
+  │  ├─💾 SP: stp_deleteStateThreshold
+  │  │  └─(No tables found)
+  ├─📊 Function: addEditStateThresholds
+  │  ├─💾 SP: stp_addEditStateThresholds
+  │  │  └─(No tables found)
+  ├─📊 Function: addEditScrapReason
+  │  ├─💾 SP: stp_addEditScrapReason
+  │  │  ├─🗃️ Table: --
+  │  │  ├─🗃️ Table: [reason]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: reason
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: addEditStateTypes
+  │  ├─💾 SP: stp_addEditStateTypes
+  │  │  ├─🗃️ Table: BEGIN
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: statetypes
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: addEditScrapReasonCategory
+  │  ├─💾 SP: stp_addEditScrapReasonCategory
+  │  │  ├─🗃️ Table: BEGIN
+  │  │  ├─🗃️ Table: [reason_category]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: addEditDowntimeCategory
+  │  ├─💾 SP: stp_addEditDowntimeCategory
+  │  │  ├─🗃️ Table: BEGIN
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: downtimecategories
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: deleteAsset
+  │  ├─💾 SP: stp_deleteAsset
+  │  │  ├─🗃️ Table: --
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: enterprises
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: siteconfig
+  │  │  └─🗃️ Table: sites
+  ├─📊 Function: addEditLineShift
+  │  ├─💾 SP: stp_upsertLineShift
+  │  │  ├─🗃️ Table: SET
+  │  │  ├─🗃️ Table: lineshifts
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: getAllCells
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+  ├─📊 Function: getProductCodes
+  │  ├─💾 SP: stp_getAllProductCodesDropdown
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: productcodes
+  │  ├─💾 SP: stp_getProductCodes
+  │  │  ├─🗃️ Table: [productcodes]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getCellID
+  │  ├─💾 SP: stp_getCellID
+  │  │  ├─🗃️ Table: --
+  │  │  ├─🗃️ Table: cells
+  │  │  └─🗃️ Table: lines
+  ├─📊 Function: getCellOrder
+  │  ├─💾 SP: stp_getCellOrder
+  │  │  ├─🗃️ Table: --
+  │  │  ├─🗃️ Table: cells
+  │  │  └─🗃️ Table: lines
+  ├─📊 Function: getGroupName
+  │  ├─💾 SP: stp_getGroup
+  │  │  ├─🗃️ Table: --
+  │  │  ├─🗃️ Table: [groups]
+  │  │  ├─🗃️ Table: grouplines
+  │  │  └─🗃️ Table: lines
+  ├─📊 Function: getLineConfig
+  │  ├─💾 SP: stp_getLineConfig
+  │  │  ├─🗃️ Table: --
+  │  │  └─🗃️ Table: lineconfig
+  ├─📊 Function: getCellConfig
+  │  ├─💾 SP: stp_getCellConfig
+  │  │  ├─🗃️ Table: --
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  └─🗃️ Table: cells
+  ├─📊 Function: getLineCellConfig
+  │  ├─💾 SP: stp_getLineCellConfig
+  │  │  ├─🗃️ Table: --
+  │  │  └─🗃️ Table: cells
+  ├─📊 Function: getLineID
+  │  ├─💾 SP: stp_getLineID
+  │  │  ├─🗃️ Table: --
+  │  │  └─🗃️ Table: lines
+  ├─📊 Function: getShiftTimes
+  │  └─(No stored procedures found)
+  ├─📊 Function: addEditLineState
+  │  ├─💾 SP: stp_addEditLineState
+  │  │  ├─🗃️ Table: --
+  │  │  ├─🗃️ Table: [state]
+  │  │  ├─🗃️ Table: [states]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: addEditMode
+  │  ├─💾 SP: stp_addEditMode
+  │  │  ├─🗃️ Table: --
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: mode
+  │  │  ├─🗃️ Table: modes
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: editAreaConfig
+  │  ├─💾 SP: stp_editAreaConfig
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: editCellConfig
+  │  ├─💾 SP: stp_editCellConfig
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: editLineConfig
+  │  ├─💾 SP: stp_editLineConfig
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: getThresholds
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+  │  ├─💾 SP: stp_getAllThresholds
+  │  │  ├─🗃️ Table: [thresholds]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getLineStatesDS
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+  │  ├─💾 SP: stp_getLineStatesDS
+  │  │  ├─🗃️ Table: --
+  │  │  └─🗃️ Table: states
+  ├─📊 Function: getCellStatesDS
+  │  ├─💾 SP: stp_getCellStatesDS
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+  ├─📊 Function: getEquipmentPathForEquipment
+  │  ├─💾 SP: stp_getEquipmentPathForLineOrCell
+  │  │  ├─🗃️ Table: [cellconfig]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lineconfig]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getEquipmentPathForEquipment
+  │  │  ├─🗃️ Table: [areaconfig]
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [cellconfig]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lineconfig]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [siteconfig]
+  │  │  ├─🗃️ Table: [sites]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getEquipmentShift
+  │  ├─💾 SP: stp_getEquipmentShift
+  │  │  ├─🗃️ Table: @ShiftLineTable
+  │  │  ├─🗃️ Table: @ShiftTable
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [sites]
+  │  │  ├─🗃️ Table: [vw_currentlineshifts]
+  │  │  ├─🗃️ Table: [vw_systemshifts]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getStateThresholds
+  │  ├─💾 SP: stp_getStatusMatrix
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getStateThresholds
+  │  │  └─(No tables found)
+  ├─📊 Function: upsertLineAssetMap
+  │  ├─💾 SP: stp_upsertLineAssetMap
+  │  │  ├─🗃️ Table: SET
+  │  │  └─🗃️ Table: lineassetmaps
+  ├─📊 Function: getEquipmentModeByCountType
+  │  ├─💾 SP: stp_getEquipmentModeByCountType
+  │  │  └─(No tables found)
+
+📄 mes_gateway\ignition\script-python\mes\config\tag\code.py
+  ├─📊 Function: createEquipmentFolder
+  │  └─(No stored procedures found)
+  ├─📊 Function: createAreaAnalysisTag
+  │  └─(No stored procedures found)
+  ├─📊 Function: createLineAnalysisTag
+  │  └─(No stored procedures found)
+  ├─📊 Function: createEquipmentTag
+  │  └─(No stored procedures found)
+  ├─📊 Function: createAreaTags
+  │  └─(No stored procedures found)
+  ├─📊 Function: createSiteTags
+  │  └─(No stored procedures found)
+  ├─📊 Function: createEnterpriseTags
+  │  └─(No stored procedures found)
+  ├─📊 Function: createLineTags
+  │  └─(No stored procedures found)
+  ├─📊 Function: createCellTags
+  │  └─(No stored procedures found)
+  ├─📊 Function: createParts
+  │  └─(No stored procedures found)
+  ├─📊 Function: createPartTag
+  │  └─(No stored procedures found)
+  ├─📊 Function: createEventTag
+  │  └─(No stored procedures found)
+  ├─📊 Function: deleteEq
+  │  └─(No stored procedures found)
+  ├─📊 Function: disableEq
+  │  └─(No stored procedures found)
+  ├─📊 Function: disableCell
+  │  ├─💾 SP: stp_disableCell
+  │  │  └─(No tables found)
+  ├─📊 Function: editCell
+  │  └─(No stored procedures found)
+  ├─📊 Function: editInput
+  │  └─(No stored procedures found)
+  ├─📊 Function: editOutput
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateEquipmentTag
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\documentManagement\sp\code.py
+  ├─📊 Function: addDocument
+  │  ├─💾 SP: stp_addDocument
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: addDocumentContent
+  │  ├─💾 SP: stp_addDocumentContent
+  │  │  ├─🗃️ Table: [documentfile]
+  │  │  ├─🗃️ Table: documentfile
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: addDocumentRevision
+  │  ├─💾 SP: stp_addDocumentRevision
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: addGraveyardDocument
+  │  ├─💾 SP: stp_addGraveyardDocument
+  │  │  ├─🗃️ Table: [graveyarddocuments]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: graveyarddocument
+  │  │  ├─🗃️ Table: graveyarddocuments
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: addGraveyardDocumentContent
+  │  ├─💾 SP: stp_addGraveyardDocumentContent
+  │  │  ├─🗃️ Table: [graveyarddocumentfile]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: graveyarddocumentfile
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteDocument
+  │  ├─💾 SP: stp_deleteDocument
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteDocumentContent
+  │  ├─💾 SP: stp_deleteDocumentContent
+  │  │  ├─🗃️ Table: [documentfile]
+  │  │  ├─🗃️ Table: documentfile
+  │  │  ├─🗃️ Table: documentsfile
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteGraveyardDocument
+  │  ├─💾 SP: stp_deleteGraveyardDocument
+  │  │  ├─🗃️ Table: [graveyarddocuments]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: graveyarddocuments
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteGraveyardDocumentContent
+  │  ├─💾 SP: stp_deleteGraveyardDocumentContent
+  │  │  ├─🗃️ Table: [graveyarddocumentfile]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: graveyarddocuments
+  │  │  ├─🗃️ Table: graveyarddocumentsfile
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: documentExist
+  │  ├─💾 SP: stp_documentExist
+  │  │  ├─🗃️ Table: [documents]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getDocumentContent
+  │  ├─💾 SP: stp_getDocumentContent
+  │  │  ├─🗃️ Table: [documentfile]
+  │  │  ├─🗃️ Table: [documents]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getDocumentTable
+  │  ├─💾 SP: stp_getDocumentTable
+  │  │  ├─🗃️ Table: @RoleValues
+  │  │  ├─🗃️ Table: @TagValues
+  │  │  ├─🗃️ Table: @UserValues
+  │  │  ├─🗃️ Table: @userSearch
+  │  │  ├─🗃️ Table: STRING_SPLIT
+  │  │  ├─🗃️ Table: [RankedRows2]
+  │  │  ├─🗃️ Table: [RankedRows]
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  ├─🗃️ Table: [rolesaccess]
+  │  │  ├─🗃️ Table: [rolesusersdocumentslink]
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: string_split
+  ├─📊 Function: getDocuments
+  │  ├─💾 SP: stp_getDocuments
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getDocumentsByID
+  │  ├─💾 SP: stp_getDocumentsByID
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getGraveyardDocumentByDate
+  │  ├─💾 SP: stp_getGraveyardDocumentByDate
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  ├─🗃️ Table: [graveyarddocuments]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: graveyardDocumentExist
+  │  ├─💾 SP: stp_graveyardDocumentExist
+  │  │  ├─🗃️ Table: [graveyarddocuments]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: updateDocumentContent
+  │  ├─💾 SP: stp_updateDocumentContent
+  │  │  ├─🗃️ Table: [documentfile]
+  │  │  ├─🗃️ Table: documentfile
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: updateDocumentDescription
+  │  ├─💾 SP: stp_updateDocumentDescription
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: updateDocumentModified
+  │  ├─💾 SP: stp_updateDocumentModified
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: updateDocumentName
+  │  ├─💾 SP: stp_updateDocumentName
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: updateDocumentNotes
+  │  ├─💾 SP: stp_updateDocumentNotes
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: updateDocumentSize
+  │  ├─💾 SP: stp_updateDocumentSize
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: updateDocumentStatusID
+  │  ├─💾 SP: stp_updateDocumentSize
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  │  ├─💾 SP: stp_updateDocumentStatusID
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: addDocumentFolder
+  │  ├─💾 SP: stp_addDocumentFolder
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  ├─🗃️ Table: documentfolders
+  │  │  ├─🗃️ Table: documentsfolders
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: addGraveyardDocumentFolder
+  │  ├─💾 SP: stp_addGraveyardDocumentFolder
+  │  │  ├─🗃️ Table: [graveyarddocumentfolders]
+  │  │  ├─🗃️ Table: graveyarddocumentfolders
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteDocumentFolder
+  │  ├─💾 SP: stp_deleteDocumentFolder
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  ├─🗃️ Table: documentfolders
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: graveyarddocumentfolders
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: documentFolderExist
+  │  ├─💾 SP: stp_documentFolderExist
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: documentFolderGraveyardExist
+  │  ├─💾 SP: stp_documentFolderGraveyardExist
+  │  │  ├─🗃️ Table: [graveyarddocumentfolders]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getDocumentFolder
+  │  ├─💾 SP: stp_getDocumentFolder
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  ├─🗃️ Table: documentsfolders
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getDocumentGraveyardFolder
+  │  ├─💾 SP: stp_getDocumentGraveyardFolder
+  │  │  ├─🗃️ Table: [graveyarddocumentfolders]
+  │  │  ├─🗃️ Table: graveyarddocumentsfolders
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: updateDocumentFolder
+  │  ├─💾 SP: stp_updateDocumentFolder
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: addDocumentTag
+  │  ├─💾 SP: stp_addDocumentTag
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: documenttags
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: addGraveyardDocumentTag
+  │  ├─💾 SP: stp_addGraveyardDocumentTag
+  │  │  ├─🗃️ Table: [graveyarddocumenttags]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: graveyarddocumenttags
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteDocumentTag
+  │  ├─💾 SP: stp_deleteDocumentTag
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  ├─🗃️ Table: documenttags
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteDocumentTagAll
+  │  ├─💾 SP: stp_deleteDocumentTagAll
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  ├─🗃️ Table: documenttags
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteGraveyardDocumentTagAll
+  │  ├─💾 SP: stp_deleteGraveyardDocumentTagAll
+  │  │  ├─🗃️ Table: [graveyarddocumenttags]
+  │  │  ├─🗃️ Table: graveyarddocumenttags
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: documentTagsExist
+  │  ├─💾 SP: stp_documentTagsExist
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getDocumentTags
+  │  ├─💾 SP: stp_getDocumentTags
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getDocumentTagsFilter
+  │  ├─💾 SP: stp_getDocumentTagsFilter
+  │  │  ├─🗃️ Table: [documenttags]
+  │  │  ├─🗃️ Table: documenttags
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getUsers
+  │  ├─💾 SP: stp_getUsers
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getUsersAccess
+  │  ├─💾 SP: stp_getUsersAccess
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: usersaccess
+  ├─📊 Function: getRolesAccess
+  │  ├─💾 SP: stp_getUsersAccess
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: usersaccess
+  │  ├─💾 SP: stp_getRolesAccess
+  │  │  ├─🗃️ Table: @temptable
+  │  │  ├─🗃️ Table: STRING_SPLIT
+  │  │  ├─🗃️ Table: [rolesaccess]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: rolesaccess
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: addUsersAccess
+  │  ├─💾 SP: stp_addUsersAccess
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: usersaccess
+  ├─📊 Function: addRolesAccess
+  │  ├─💾 SP: stp_addRolesAccess
+  │  │  ├─🗃️ Table: [rolesaccess]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: rolesaccess
+  ├─📊 Function: addRolesUsersDocumentsLink
+  │  ├─💾 SP: stp_addRolesUsersDocumentsLink
+  │  │  ├─🗃️ Table: [rolesusersdocumentslink]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: rolesusersdocumentslink
+  ├─📊 Function: updateUsersAccess
+  │  ├─💾 SP: stp_updateUsersAccess
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: statement
+  │  │  └─🗃️ Table: usersaccess
+  ├─📊 Function: updateRolesAccess
+  │  ├─💾 SP: stp_updateRolesAccess
+  │  │  ├─🗃️ Table: [rolesaccess]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: rolesaccess
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: deleteUsersAccess
+  │  ├─💾 SP: stp_deleteUsersAccess
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: usersaccess
+  ├─📊 Function: deleteRolesAccess
+  │  ├─💾 SP: stp_deleteRolesAccess
+  │  │  ├─🗃️ Table: [rolesaccess]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: rolesaccess
+  ├─📊 Function: deleteRolesUsersDocumentsLink
+  │  ├─💾 SP: stp_deleteRolesUsersDocumentsLink
+  │  │  ├─🗃️ Table: [rolesusersdocumentslink]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: rolesaccess
+  │  │  └─🗃️ Table: rolesusersdocumentslink
+  ├─📊 Function: getRolesUsersDocumentsLink
+  │  ├─💾 SP: stp_getRolesUsersDocumentsLink
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: [rolesusersdocumentslink]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getRolesUsersDocumentsLinkByDocumentID
+  │  ├─💾 SP: stp_getRolesUsersDocumentsLinkByDocumentID
+  │  │  ├─🗃️ Table: [rolesusersdocumentslink]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: rolesusersdocumentslink
+  ├─📊 Function: getRolesUsersDocumentAccess
+  │  ├─💾 SP: stp_getRolesUsersDocumentAccess
+  │  │  ├─🗃️ Table: [documentfolders]
+  │  │  ├─🗃️ Table: [documents]
+  │  │  ├─🗃️ Table: [rolesaccess]
+  │  │  ├─🗃️ Table: [rolesusersdocumentslink]
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getDocumentStatus
+  │  ├─💾 SP: stp_getDocumentStatus
+  │  │  ├─🗃️ Table: [documentstatus]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getEmails
+  │  ├─💾 SP: stp_getEmails
+  │  │  ├─🗃️ Table: [emails]
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: addEmail
+  │  ├─💾 SP: stp_addEmail
+  │  │  ├─🗃️ Table: [emails]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: emails
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: updateEmail
+  │  ├─💾 SP: stp_updateEmail
+  │  │  ├─🗃️ Table: [emails]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: emails
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: deleteEmail
+  │  ├─💾 SP: stp_deleteEmail
+  │  │  ├─🗃️ Table: [emails]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: emails
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: rolesaccess
+
+📄 mes_gateway\ignition\script-python\mes\downtime\calcs\code.py
+  ├─📊 Function: updateAllSiteAreasDtTop5
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateAllLinesDTop5
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateAllPlannedUnplannedDT
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateAllDowntimeEvents
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateCellDowntimeEvents
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateAllDowntimeEventsComposite
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateAllDowntimeSummary
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateAllStateTimeline
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateAllCellStateTimeline
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateAllStateHistory
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\downtime\periodic\code.py
+  ├─📊 Function: getAllDtEvents
+  │  ├─💾 SP: stp_getPeriodAllLinesDTEvents
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #Events
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: @AllStates
+  │  │  ├─🗃️ Table: @AllStates;
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getCellDtEvents
+  │  ├─💾 SP: stp_getPeriodAllCellsDTEvents
+  │  │  ├─🗃️ Table: #allstatestable
+  │  │  ├─🗃️ Table: #cellids
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #events
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: @AllStates
+  │  │  ├─🗃️ Table: @AllStates;
+  │  │  ├─🗃️ Table: Gettimerange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getAllDtEventsComposite
+  │  ├─💾 SP: stp_getPeriodAllLinesDTEventsComposite
+  │  │  ├─🗃️ Table: #Events
+  │  │  ├─🗃️ Table: #allstatestable
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #events
+  │  │  ├─🗃️ Table: #lineids
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: @AllStates
+  │  │  ├─🗃️ Table: @AllStates;
+  │  │  ├─🗃️ Table: Gettimerange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: eventdowntimereasons
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getAllDtSummary
+  │  ├─💾 SP: stp_getPeriodAllLinesStateSummary
+  │  │  ├─🗃️ Table: #StateTimeBreakdown
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getAllDtTop5
+  │  ├─💾 SP: stp_getPeriodAllLinesTop5DTMicro
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: #Celldur
+  │  │  ├─🗃️ Table: #SiteRollup
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  │  ├─💾 SP: stp_getPeriodAllLinesTop5DT
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: #Celldur
+  │  │  ├─🗃️ Table: #SiteRollup
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: vw_currentlineshifts
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getAllStateTimeline
+  │  ├─💾 SP: stp_getPeriodAllLinesStateTimeline
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #LineIDs
+  │  │  ├─🗃️ Table: #Results
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: missing
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: statecurrent
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getAllCellStateTimeline
+  │  ├─💾 SP: stp_getPeriodAllCellsStateTimeline
+  │  │  └─(No tables found)
+  ├─📊 Function: getDtTop5
+  │  ├─💾 SP: stp_getPeriodSiteTop5DTMicro
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: @DTEvents
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cell
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: siteconfig
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  │  ├─💾 SP: stp_getPeriodAreaTop5DTMicro
+  │  │  ├─🗃️ Table: #AreaRollup
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: #Celldur
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  └─🗃️ Table: states
+  │  ├─💾 SP: stp_getPeriodGroupTop5DT
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getPeriodAreaTop5DT
+  │  │  ├─🗃️ Table: #AreaRollup
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: #Celldur
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  └─🗃️ Table: states
+  │  ├─💾 SP: stp_getPeriodGroupTop5DTMicro
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getPeriodSiteTop5DT
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: @DTEvents
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cell
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: siteconfig
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getCellDtTop5
+  │  ├─💾 SP: stp_getPeriodCellTop5DT
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: #CellRollup
+  │  │  ├─🗃️ Table: #Celldur
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cellConfig
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  └─🗃️ Table: states
+  ├─📊 Function: getallPlannedUnplannedDT
+  │  ├─💾 SP: stp_getPeriodAllLinesPlannedUnplannedDT
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #PlannedTimeBreakdown
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getStateHistory
+  │  ├─💾 SP: stp_getPeriodLineStateTimeline
+  │  │  └─(No tables found)
+  ├─📊 Function: writeAllDtEvents
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeAllCellDtEvents
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeAllDtEventsComposite
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeAllDtTop5
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeAllStateTimeline
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeAllCellStateTimeline
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeDtSummary
+  │  └─(No stored procedures found)
+  ├─📊 Function: tagWriteDtTop5
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeDtTop5
+  │  └─(No stored procedures found)
+  ├─📊 Function: writePlannedUnplannedDT
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\downtime\sp\code.py
+  ├─📊 Function: getPeriodLineStateTimeline
+  │  ├─💾 SP: stp_getGroupOEE_AQP
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getPeriodLineProgress
+  │  │  └─(No tables found)
+  ├─📊 Function: getPeriodAllLinesPlannedUnplannedDT
+  │  ├─💾 SP: stp_getPeriodAllLinesPlannedUnplannedDT
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #PlannedTimeBreakdown
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getPeriodAllLinesStateSummary
+  │  ├─💾 SP: stp_getPeriodAllLinesStateSummary
+  │  │  ├─🗃️ Table: #StateTimeBreakdown
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getPeriodAllLinesDTEvents
+  │  ├─💾 SP: stp_getPeriodAllLinesDTEvents
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #Events
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: @AllStates
+  │  │  ├─🗃️ Table: @AllStates;
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getPeriodAllCellsDTEvents
+  │  ├─💾 SP: stp_getPeriodAllLinesDTEvents
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #Events
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: @AllStates
+  │  │  ├─🗃️ Table: @AllStates;
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  │  ├─💾 SP: stp_getPeriodAllCellsDTEvents
+  │  │  ├─🗃️ Table: #allstatestable
+  │  │  ├─🗃️ Table: #cellids
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #events
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: @AllStates
+  │  │  ├─🗃️ Table: @AllStates;
+  │  │  ├─🗃️ Table: Gettimerange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getPeriodAllLinesDTEventsComposite
+  │  ├─💾 SP: stp_getPeriodAllLinesDTEventsComposite
+  │  │  ├─🗃️ Table: #Events
+  │  │  ├─🗃️ Table: #allstatestable
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #events
+  │  │  ├─🗃️ Table: #lineids
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: @AllStates
+  │  │  ├─🗃️ Table: @AllStates;
+  │  │  ├─🗃️ Table: Gettimerange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: eventdowntimereasons
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  └─🗃️ Table: workorders
+  │  ├─💾 SP: stp_getPeriodAllLinesDTEventsCompositeByLine
+  │  │  ├─🗃️ Table: #Events
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: eventdowntimereasons
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getPeriodAllLinesStateTimeline
+  │  ├─💾 SP: stp_getPeriodAllLinesStateTimeline
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #LineIDs
+  │  │  ├─🗃️ Table: #Results
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: missing
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: statecurrent
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getPeriodAllCellsStateTimeline
+  │  ├─💾 SP: stp_getPeriodAllLinesStateTimeline
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #LineIDs
+  │  │  ├─🗃️ Table: #Results
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: missing
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: statecurrent
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  │  ├─💾 SP: stp_getPeriodAllCellsStateTimeline
+  │  │  └─(No tables found)
+  ├─📊 Function: getPeriodAllLinesTop5DTMicro
+  │  ├─💾 SP: stp_getPeriodAllLinesTop5DTMicro
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: #Celldur
+  │  │  ├─🗃️ Table: #SiteRollup
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  │  ├─💾 SP: stp_getPeriodAllLinesStateSummary
+  │  │  ├─🗃️ Table: #StateTimeBreakdown
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getPeriodAllLinesTop5DT
+  │  ├─💾 SP: stp_getPeriodAllLinesTop5DT
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: #Celldur
+  │  │  ├─🗃️ Table: #SiteRollup
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: vw_currentlineshifts
+  │  │  └─🗃️ Table: vw_productionmodel
+  │  ├─💾 SP: stp_getPeriodAllLinesStateSummary
+  │  │  ├─🗃️ Table: #StateTimeBreakdown
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getPeriodLineCallsEvents
+  │  ├─💾 SP: stp_getPeriodLineCallsEvents
+  │  │  ├─🗃️ Table: #CallsData
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: modechangeevents
+  │  │  └─🗃️ Table: modes
+  ├─📊 Function: getCallsPreviousEventID
+  │  ├─💾 SP: stp_getCallsPreviousEventID
+  │  │  ├─🗃️ Table: lines
+  │  │  └─🗃️ Table: modechangeevents
+  ├─📊 Function: checkEventReasonID
+  │  ├─💾 SP: stp_checkModeEventID
+  │  │  ├─🗃️ Table: --
+  │  │  └─🗃️ Table: eventcallsreasons
+  │  ├─💾 SP: stp_checkEventReasonID
+  │  │  └─(No tables found)
+  ├─📊 Function: upsertEventCallsReason
+  │  ├─💾 SP: stp_upsertEventCallsReason
+  │  │  └─🗃️ Table: SET
+  ├─📊 Function: upsertEventDowntimeReason
+  │  ├─💾 SP: stp_upsertEventDowntimeReason
+  │  │  ├─🗃️ Table: SET
+  │  │  ├─🗃️ Table: StateChangeEvent
+  │  │  └─🗃️ Table: statechangeevents
+  ├─📊 Function: getGroupDT_Top5
+  │  ├─💾 SP: stp_GroupDT_Top5
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getGroupOEE_AQP
+  │  │  └─(No tables found)
+  ├─📊 Function: getPeriodCellTop5DT
+  │  ├─💾 SP: stp_getPeriodCellTop5DT
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: #CellRollup
+  │  │  ├─🗃️ Table: #Celldur
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cellConfig
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  └─🗃️ Table: states
+  │  ├─💾 SP: stp_getPeriodAreaTop5DT
+  │  │  ├─🗃️ Table: #AreaRollup
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: #Celldur
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  └─🗃️ Table: states
+  ├─📊 Function: getPeriodAreaTop5DT
+  │  ├─💾 SP: stp_getPeriodAreaTop5DT
+  │  │  ├─🗃️ Table: #AreaRollup
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: #Celldur
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  └─🗃️ Table: states
+  ├─📊 Function: getPeriodAreaTop5DTMicro
+  │  ├─💾 SP: stp_getPeriodAreaTop5DTMicro
+  │  │  ├─🗃️ Table: #AreaRollup
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: #Celldur
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  └─🗃️ Table: states
+  │  ├─💾 SP: stp_getPeriodAreaTop5DT
+  │  │  ├─🗃️ Table: #AreaRollup
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: #Celldur
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  └─🗃️ Table: states
+  ├─📊 Function: getPeriodSiteTop5DT
+  │  ├─💾 SP: stp_getPeriodSiteTop5DT
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: @DTEvents
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cell
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: siteconfig
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getPeriodSiteTop5DTMicro
+  │  ├─💾 SP: stp_getPeriodSiteTop5DTMicro
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: @DTEvents
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cell
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: siteconfig
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  │  ├─💾 SP: stp_getPeriodSiteTop5DT
+  │  │  ├─🗃️ Table: #CellDur
+  │  │  ├─🗃️ Table: @DTEvents
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: cell
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: siteconfig
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: states
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: splitDTReasonsForEvent
+  │  ├─💾 SP: stp_splitDTReasonsForEvent
+  │  │  ├─🗃️ Table: Old
+  │  │  ├─🗃️ Table: eventdowntimereasons
+  │  │  └─🗃️ Table: statechangeevents
+  ├─📊 Function: insertStateEventMDE
+  │  ├─💾 SP: stp_insertStateEvent
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  └─🗃️ Table: statechangeevents
+
+📄 mes_gateway\ignition\script-python\mes\enterprise\periodic\code.py
+  ├─📊 Function: getScrap
+  │  └─(No stored procedures found)
+  ├─📊 Function: getNonRejectScrap
+  │  └─(No stored procedures found)
+  ├─📊 Function: getScrapCount
+  │  └─(No stored procedures found)
+  ├─📊 Function: getStartedWorkorders
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLineUtilization
+  │  └─(No stored procedures found)
+  ├─📊 Function: runEnterpriseReporting
+  │  ├─💾 SP: stp_insertProductionData
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: ProductionData
+  │  │  ├─🗃️ Table: WITH
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  └─🗃️ Table: work
+  │  ├─💾 SP: stp_insertDowntimeData
+  │  │  ├─🗃️ Table: @AllLinesDT
+  │  │  ├─🗃️ Table: DowntimeData
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: WITH
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: the
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  └─🗃️ Table: work
+
+📄 mes_gateway\ignition\script-python\mes\enterprise\reporting\code.py
+  ├─📊 Function: getShiftAnalysis
+  │  └─(No stored procedures found)
+  ├─📊 Function: getShiftAnalysisMolding
+  │  └─(No stored procedures found)
+  ├─📊 Function: getRunAnalysis
+  │  └─(No stored procedures found)
+  ├─📊 Function: getRunAnalysisMolding
+  │  └─(No stored procedures found)
+  ├─📊 Function: getDaysFromEpoch
+  │  └─(No stored procedures found)
+  ├─📊 Function: getUTCOffset
+  │  └─(No stored procedures found)
+  ├─📊 Function: getRunData
+  │  └─(No stored procedures found)
+  ├─📊 Function: getShiftData
+  │  └─(No stored procedures found)
+  ├─📊 Function: getData
+  │  └─(No stored procedures found)
+  ├─📊 Function: insertIntervalStreamData
+  │  ├─💾 SP: stp_insertIntervalStreamData
+  │  │  └─(No tables found)
+  ├─📊 Function: getLastStreamInsertForDevice
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLineStateHistory
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLineStateHistoryAnalysis
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTimeLineStreamData
+  │  └─(No stored procedures found)
+  ├─📊 Function: insertTimeLineStreamData
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\enterprise\sp\code.py
+  ├─📊 Function: insertDowntimeData
+  │  ├─💾 SP: stp_insertDowntimeData
+  │  │  ├─🗃️ Table: @AllLinesDT
+  │  │  ├─🗃️ Table: DowntimeData
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: WITH
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: the
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  └─🗃️ Table: work
+  ├─📊 Function: insertProductionData
+  │  ├─💾 SP: stp_insertProductionData
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: ProductionData
+  │  │  ├─🗃️ Table: WITH
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  └─🗃️ Table: work
+
+📄 mes_gateway\ignition\script-python\mes\gateway\events\code.py
+  ├─📊 Function: getEndOfCalculations
+  │  └─(No stored procedures found)
+  ├─📊 Function: fastUpdateOEEDT
+  │  └─(No stored procedures found)
+  ├─📊 Function: slowUpdateOEEDT
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\gateway\health\code.py
+  ├─📊 Function: getTagHistory
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\gateway\opcDevices\code.py
+  ├─📊 Function: createOpcDevice
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAllDevices
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeOpcDevicesScheduled
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\gateway\sp\code.py
+  ├─📊 Function: checkPeriodicSPs
+  │  ├─💾 SP: stp_checkPeriodicSPs
+  │  │  └─(No tables found)
+
+📄 mes_gateway\ignition\script-python\mes\gateway\tag\code.py
+  ├─📊 Function: createEquipmentFolder
+  │  └─(No stored procedures found)
+  ├─📊 Function: createEquipmentTag
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\mdm\sp\code.py
+  ├─📊 Function: updateCountAuditEntry
+  │  ├─💾 SP: stp_updateCountAuditEntry
+  │  │  └─(No tables found)
+  ├─📊 Function: getNextID
+  │  ├─💾 SP: stp_updateCountAuditEntry
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getNextID
+  │  │  └─(No tables found)
+
+📄 mes_gateway\ignition\script-python\mes\oee\calcs\code.py
+  ├─📊 Function: updateAllSiteAreasOEE_AQP
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateAllLinesOEE_AQP
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateAllCellsOEE_AQP
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateAllAreaOEE_table
+  │  └─(No stored procedures found)
+  ├─📊 Function: calcLineOEERun
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\oee\mode\code.py
+  ├─📊 Function: getMode
+  │  └─(No stored procedures found)
+  ├─📊 Function: setMode
+  │  └─(No stored procedures found)
+  ├─📊 Function: setModeProduction
+  │  └─(No stored procedures found)
+  ├─📊 Function: setModeChangeover
+  │  └─(No stored procedures found)
+  ├─📊 Function: setModeDisabled
+  │  └─(No stored procedures found)
+  ├─📊 Function: setModeIdle
+  │  └─(No stored procedures found)
+  ├─📊 Function: setModeMaintenance
+  │  └─(No stored procedures found)
+  ├─📊 Function: setModeMaintenanceCalled
+  │  └─(No stored procedures found)
+  ├─📊 Function: setModeMaintenanceInProgress
+  │  └─(No stored procedures found)
+  ├─📊 Function: setModeMaintenanceLeft
+  │  └─(No stored procedures found)
+  ├─📊 Function: setModeQualityCalled
+  │  └─(No stored procedures found)
+  ├─📊 Function: setModeQualityInProgress
+  │  └─(No stored procedures found)
+  ├─📊 Function: setModeTeamLeadCalled
+  │  └─(No stored procedures found)
+  ├─📊 Function: setModeTeamLeadInProgress
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\oee\periodic\code.py
+  ├─📊 Function: calcLineOEEHour
+  │  └─(No stored procedures found)
+  ├─📊 Function: calcLineOEERun
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAllLinesOEE_AQP
+  │  ├─💾 SP: stp_getPeriodAllLinesOEE_AQP
+  │  │  ├─🗃️ Table: #AggregateStatesTable
+  │  │  ├─🗃️ Table: #AllLinesCountsAndStates
+  │  │  ├─🗃️ Table: #AllLinesOEE
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #LineDetails
+  │  │  ├─🗃️ Table: #LineIDs
+  │  │  ├─🗃️ Table: #PreAggregatesCounts
+  │  │  ├─🗃️ Table: #ScrapTotals
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: CHE
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: Units/Hour
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: countchangeevents
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodelines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: scrap_log
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: systembreaks
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: the
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  ├─🗃️ Table: with
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getAllCellsOEE_AQP
+  │  ├─💾 SP: stp_getPeriodAllCellsOEE_AQP
+  │  │  ├─🗃️ Table: #AggregateStatesTable
+  │  │  ├─🗃️ Table: #AllCellOEE
+  │  │  ├─🗃️ Table: #AllCellsCountsAndStates
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #CellDetails
+  │  │  ├─🗃️ Table: #CellIDs
+  │  │  ├─🗃️ Table: #PreAggregatesCounts
+  │  │  ├─🗃️ Table: #ScrapTotals
+  │  │  ├─🗃️ Table: #cellIDs
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: CHE
+  │  │  ├─🗃️ Table: Cells
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: Units/Hour
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: countchangeevents
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodelines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: scrap_log
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: systembreaks
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: the
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  ├─🗃️ Table: with
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getCellsOEE_AQPByLine
+  │  ├─💾 SP: stp_getPeriodAllCellsOEE_AQP
+  │  │  ├─🗃️ Table: #AggregateStatesTable
+  │  │  ├─🗃️ Table: #AllCellOEE
+  │  │  ├─🗃️ Table: #AllCellsCountsAndStates
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #CellDetails
+  │  │  ├─🗃️ Table: #CellIDs
+  │  │  ├─🗃️ Table: #PreAggregatesCounts
+  │  │  ├─🗃️ Table: #ScrapTotals
+  │  │  ├─🗃️ Table: #cellIDs
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: CHE
+  │  │  ├─🗃️ Table: Cells
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: Units/Hour
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: countchangeevents
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodelines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: scrap_log
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: systembreaks
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: the
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  ├─🗃️ Table: with
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getOEE_AQP
+  │  ├─💾 SP: stp_getPeriodSiteOEE_AQP
+  │  │  ├─🗃️ Table: #SiteLines
+  │  │  ├─🗃️ Table: #SiteOEE
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: sites
+  │  │  └─🗃️ Table: vw_productionmodel
+  │  ├─💾 SP: stp_getPeriodOEE_AQP
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getPeriodAreaOEE_AQP
+  │  │  ├─🗃️ Table: #AreaOEE
+  │  │  ├─🗃️ Table: #FilteredLinesOEE
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: to
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getOEETable
+  │  ├─💾 SP: stp_getPeriodAreaOEETable
+  │  │  ├─🗃️ Table: #AllLineData
+  │  │  ├─🗃️ Table: #AreaOEE
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: Schedule,
+  │  │  ├─🗃️ Table: areaConfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: assets
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: statecurrent
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  └─🗃️ Table: workorders
+  │  ├─💾 SP: stp_getPeriodSiteOEETable
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getPeriodGroupOEETable
+  │  │  └─(No tables found)
+  ├─📊 Function: writeOEE_AQP
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeCellsOEE_AQP
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeOEETable
+  │  └─(No stored procedures found)
+  ├─📊 Function: productionChartTransform_OLD
+  │  └─(No stored procedures found)
+  ├─📊 Function: productionChartTransform
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateOEETablePeriodic
+  │  ├─💾 SP: stp_updateOEETablePeriodic
+  │  │  ├─🗃️ Table: ';
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: successful';
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: get_metrics_for_paths
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\oee\sp\code.py
+  ├─📊 Function: getGroupOEE_AQP
+  │  ├─💾 SP: stp_getGroupOEE_AQP
+  │  │  └─(No tables found)
+  ├─📊 Function: getPeriodAllLinesOEE_AQP
+  │  ├─💾 SP: stp_getPeriodAllLinesOEE_AQP
+  │  │  ├─🗃️ Table: #AggregateStatesTable
+  │  │  ├─🗃️ Table: #AllLinesCountsAndStates
+  │  │  ├─🗃️ Table: #AllLinesOEE
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #LineDetails
+  │  │  ├─🗃️ Table: #LineIDs
+  │  │  ├─🗃️ Table: #PreAggregatesCounts
+  │  │  ├─🗃️ Table: #ScrapTotals
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: CHE
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: Units/Hour
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: countchangeevents
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodelines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: scrap_log
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: systembreaks
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: the
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  ├─🗃️ Table: with
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getPeriodAllCellsOEE_AQP
+  │  ├─💾 SP: stp_getPeriodAllCellsOEE_AQP
+  │  │  ├─🗃️ Table: #AggregateStatesTable
+  │  │  ├─🗃️ Table: #AllCellOEE
+  │  │  ├─🗃️ Table: #AllCellsCountsAndStates
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #CellDetails
+  │  │  ├─🗃️ Table: #CellIDs
+  │  │  ├─🗃️ Table: #PreAggregatesCounts
+  │  │  ├─🗃️ Table: #ScrapTotals
+  │  │  ├─🗃️ Table: #cellIDs
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: CHE
+  │  │  ├─🗃️ Table: Cells
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: Units/Hour
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: countchangeevents
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodelines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: scrap_log
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: systembreaks
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: the
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  ├─🗃️ Table: with
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getPeriodAreaOEE_AQP
+  │  ├─💾 SP: stp_getPeriodAreaOEE_AQP
+  │  │  ├─🗃️ Table: #AreaOEE
+  │  │  ├─🗃️ Table: #FilteredLinesOEE
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: to
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getPeriodAreaOEETable
+  │  ├─💾 SP: stp_getPeriodAreaOEETable
+  │  │  ├─🗃️ Table: #AllLineData
+  │  │  ├─🗃️ Table: #AreaOEE
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: Schedule,
+  │  │  ├─🗃️ Table: areaConfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: assets
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: statecurrent
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getPeriodSiteOEE_AQP
+  │  ├─💾 SP: stp_getSiteOEE_AQP
+  │  │  ├─🗃️ Table: #AllLineOEE
+  │  │  ├─🗃️ Table: #SiteOEE
+  │  │  ├─🗃️ Table: #TotalSiteOEE
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: Taylor
+  │  │  ├─🗃️ Table: areaConfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: called
+  │  │  ├─🗃️ Table: report
+  │  │  ├─🗃️ Table: stp_getPeriodAllLinesOEE_AQP
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  └─🗃️ Table: the
+  │  ├─💾 SP: stp_getPeriodSiteOEE_AQP
+  │  │  ├─🗃️ Table: #SiteLines
+  │  │  ├─🗃️ Table: #SiteOEE
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: sites
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getPeriodParetoChart
+  │  ├─💾 SP: stp_getDatesLineProductionCounts
+  │  │  ├─🗃️ Table: #FinalCounts
+  │  │  ├─🗃️ Table: #IntervalCounts
+  │  │  ├─🗃️ Table: #TimeIntervals
+  │  │  ├─🗃️ Table: [countchangeevents]
+  │  │  ├─🗃️ Table: line
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: getLastThreeProdCounts
+  │  ├─💾 SP: stp_getLastThreeProdCounts
+  │  │  ├─🗃️ Table: @FinalSummary
+  │  │  ├─🗃️ Table: @Results
+  │  │  ├─🗃️ Table: @ShiftHours
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: the
+  │  │  ├─🗃️ Table: vw_currentsystemshifts
+  │  │  └─🗃️ Table: vw_systemshifts
+  ├─📊 Function: updateOEETablePeriodic
+  │  ├─💾 SP: stp_updateOEETablePeriodic
+  │  │  ├─🗃️ Table: ';
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: successful';
+  │  │  └─🗃️ Table: the
+
+📄 mes_gateway\ignition\script-python\mes\oee\state\code.py
+  ├─📊 Function: getLineState
+  │  └─(No stored procedures found)
+  ├─📊 Function: getEquipmentState
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\oee\tag\code.py
+  ├─📊 Function: countEventInsert
+  │  ├─💾 SP: stp_insertCountEvent
+  │  │  └─🗃️ Table: countchangeevents
+  ├─📊 Function: modeEventInsert
+  │  ├─💾 SP: stp_insertModeEvent
+  │  │  ├─🗃️ Table: cell
+  │  │  ├─🗃️ Table: line
+  │  │  └─🗃️ Table: modechangeevents
+  ├─📊 Function: stateEventInsert
+  │  ├─💾 SP: stp_insertStateEvent
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  └─🗃️ Table: statechangeevents
+  ├─📊 Function: stateCurrent
+  │  └─(No stored procedures found)
+  ├─📊 Function: modeCurrent
+  │  ├─💾 SP: stp_upsertCurrentMode
+  │  │  ├─🗃️ Table: IF
+  │  │  └─🗃️ Table: modecurrent
+
+📄 mes_gateway\ignition\script-python\mes\quality\calcs\code.py
+  ├─📊 Function: testFunction
+  │  └─(No stored procedures found)
+  ├─📊 Function: getScrapERP
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\quality\periodic\code.py
+  ├─📊 Function: testFunction
+  │  └─(No stored procedures found)
+  ├─📊 Function: getScrapERP
+  │  ├─💾 SP: stp_getScrapERP
+  │  │  └─(No tables found)
+
+📄 mes_gateway\ignition\script-python\mes\quality\sp\code.py
+  ├─📊 Function: getTestTypes
+  │  ├─💾 SP: stp_getTestTypes
+  │  │  └─🗃️ Table: [testtypes]
+  ├─📊 Function: getTestAttributeDataTypes
+  │  ├─💾 SP: stp_getTestAttributeDataTypes
+  │  │  ├─🗃️ Table: THE
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: testattributedatatypes
+  ├─📊 Function: getTestStatuses
+  │  ├─💾 SP: stp_getTestStatuses
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: teststatuses
+  ├─📊 Function: insertAndGetNewTest
+  │  ├─💾 SP: stp_insertAndGetNewTest
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: tests
+  ├─📊 Function: getTests
+  │  ├─💾 SP: stp_getTests
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: materiallots
+  │  │  ├─🗃️ Table: materials
+  │  │  ├─🗃️ Table: partdetails
+  │  │  ├─🗃️ Table: tests
+  │  │  ├─🗃️ Table: teststatuses
+  │  │  ├─🗃️ Table: testtypecategories
+  │  │  └─🗃️ Table: testtypes
+  ├─📊 Function: updateTest
+  │  ├─💾 SP: stp_updateTest
+  │  │  ├─🗃️ Table: #UpsertableTestValues
+  │  │  ├─🗃️ Table: OPENJSON
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: testattributedatatypes
+  │  │  ├─🗃️ Table: testattributes
+  │  │  ├─🗃️ Table: testattributevalues
+  │  │  ├─🗃️ Table: tests
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: updateTestStatus
+  │  ├─💾 SP: stp_updateTestStatus
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: tests
+  │  │  └─🗃️ Table: teststatuses
+  ├─📊 Function: disableTest
+  │  ├─💾 SP: stp_disableTest
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: tests
+  ├─📊 Function: getTestAttributes
+  │  ├─💾 SP: stp_getTestAttributes
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: testattributedatatypes
+  │  │  └─🗃️ Table: testattributes
+  ├─📊 Function: getTestAttributeValues
+  │  ├─💾 SP: stp_getTestAttributeValues
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: materiallots
+  │  │  ├─🗃️ Table: materials
+  │  │  ├─🗃️ Table: partdetails
+  │  │  ├─🗃️ Table: testattributedatatypes
+  │  │  ├─🗃️ Table: testattributes
+  │  │  ├─🗃️ Table: testattributevalues
+  │  │  └─🗃️ Table: tests
+  ├─📊 Function: getPreviousTestTable
+  │  ├─💾 SP: stp_getPreviousTestTable
+  │  │  ├─🗃️ Table: #AttributesInitial
+  │  │  ├─🗃️ Table: #TestsList
+  │  │  ├─🗃️ Table: --
+  │  │  ├─🗃️ Table: Groupin
+  │  │  ├─🗃️ Table: materiallots
+  │  │  ├─🗃️ Table: materials
+  │  │  ├─🗃️ Table: partdetails
+  │  │  ├─🗃️ Table: testattributedatatypes
+  │  │  ├─🗃️ Table: testattributes
+  │  │  ├─🗃️ Table: testattributevalues
+  │  │  └─🗃️ Table: testdetails
+  ├─📊 Function: insertTestAttribute
+  │  ├─💾 SP: stp_insertTestAttribute
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: testattributes
+  ├─📊 Function: updateTestAttribute
+  │  ├─💾 SP: stp_updateTestAttribute
+  │  │  ├─🗃️ Table: THE
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: testattributes
+  ├─📊 Function: disableTestAttribute
+  │  ├─💾 SP: stp_disableTestAttribute
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: testattributes
+  ├─📊 Function: getTestAttributeTrend
+  │  ├─💾 SP: stp_getTestAttributeTrend
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: testattributedatatypes
+  │  │  ├─🗃️ Table: testattributes
+  │  │  └─🗃️ Table: testattributevalues
+  ├─📊 Function: getTestAttributesReport
+  │  ├─💾 SP: stp_getTestAttributesReport
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: testattributedatatypes
+  │  │  ├─🗃️ Table: testattributes
+  │  │  └─🗃️ Table: testattributevalues
+  ├─📊 Function: getTestAggregatesByProductCode
+  │  ├─💾 SP: stp_getTestAggregatesByProductCode
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: partdetails
+  │  │  └─🗃️ Table: tests
+  ├─📊 Function: getTopRejects
+  │  ├─💾 SP: stp_getTopRejects
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: nonconformancereasons
+  │  │  ├─🗃️ Table: nonconformancereports
+  │  │  ├─🗃️ Table: partdetails
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: tests
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getNonConformanceReports
+  │  ├─💾 SP: stp_getNonConformanceReports
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: materiallots
+  │  │  ├─🗃️ Table: materials
+  │  │  ├─🗃️ Table: nonconformancereports
+  │  │  ├─🗃️ Table: partdetails
+  │  │  └─🗃️ Table: tests
+  ├─📊 Function: getNonConformanceReasons
+  │  ├─💾 SP: stp_getNonConformanceReasons
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: nonconformancereasons
+  ├─📊 Function: getSeverities
+  │  ├─💾 SP: stp_getSeverities
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: severities
+  ├─📊 Function: insertNonConformanceReport
+  │  ├─💾 SP: stp_insertNonConformanceReport
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: nonconformancereports
+  ├─📊 Function: getMaterialLotTest
+  │  ├─💾 SP: stp_getMaterialLotTest
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: materiallots
+  │  │  ├─🗃️ Table: materials
+  │  │  ├─🗃️ Table: tests
+  │  │  ├─🗃️ Table: testspart
+  │  │  └─🗃️ Table: teststatuses
+  ├─📊 Function: upsertMaterialLotTest
+  │  ├─💾 SP: stp_upsertMaterialLotTest
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: tests
+  │  │  └─🗃️ Table: testsmateriallot
+  ├─📊 Function: getPartTest
+  │  ├─💾 SP: stp_getPartTest
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: partdetails
+  │  │  ├─🗃️ Table: tests
+  │  │  ├─🗃️ Table: testspart
+  │  │  └─🗃️ Table: teststatuses
+  ├─📊 Function: upsertPartTest
+  │  ├─💾 SP: stp_upsertPartTest
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: tests
+  │  │  └─🗃️ Table: testspart
+  ├─📊 Function: getScrapCount
+  │  ├─💾 SP: stp_getScrap
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: scrap_log
+  │  ├─💾 SP: stp_getSiteOEE_AQP
+  │  │  ├─🗃️ Table: #AllLineOEE
+  │  │  ├─🗃️ Table: #SiteOEE
+  │  │  ├─🗃️ Table: #TotalSiteOEE
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: Taylor
+  │  │  ├─🗃️ Table: areaConfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: called
+  │  │  ├─🗃️ Table: report
+  │  │  ├─🗃️ Table: stp_getPeriodAllLinesOEE_AQP
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: getScrapERP
+  │  ├─💾 SP: stp__ERPScrapUpdate
+  │  │  └─(No tables found)
+
+📄 mes_gateway\ignition\script-python\mes\schedule\calcs\code.py
+  ├─📊 Function: testFunction
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\schedule\counts\code.py
+  ├─📊 Function: updateCounts
+  │  ├─💾 SP: stp_getEquipmentModeByCountType
+  │  │  └─(No tables found)
+  ├─📊 Function: createProductionPieChartDS
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\schedule\jobs\code.py
+  ├─📊 Function: callGetJobData
+  │  ├─💾 SP: stp_getNextJob
+  │  │  ├─🗃️ Table: ERP
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: copyJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: clearJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: clearNextJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: clearCurrentJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: clearPreviousJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: cleanJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: endJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: getJobPath
+  │  └─(No stored procedures found)
+  ├─📊 Function: getNextJobPath
+  │  └─(No stored procedures found)
+  ├─📊 Function: getPreviousJobPath
+  │  └─(No stored procedures found)
+  ├─📊 Function: getCurrentJobPath
+  │  └─(No stored procedures found)
+  ├─📊 Function: isNextJobselected
+  │  └─(No stored procedures found)
+  ├─📊 Function: isJobRunning
+  │  └─(No stored procedures found)
+  ├─📊 Function: populateNextJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: setCurrentJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: setNextJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: setPreviousJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: startJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: setWorkOrder
+  │  └─(No stored procedures found)
+  ├─📊 Function: setOperationsScheduleUuid
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateJobTooling
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeJob
+  │  └─(No stored procedures found)
+  ├─📊 Function: endJobFromTag
+  │  ├─💾 SP: stp_runEnd
+  │  │  ├─🗃️ Table: #LineRunOEE
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: Run
+  │  │  ├─🗃️ Table: Schedule
+  │  │  ├─🗃️ Table: Sechedule/WO
+  │  │  ├─🗃️ Table: config
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: run
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: that
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: setNextRunFromTag
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\schedule\shiftControl\code.py
+  ├─📊 Function: setEndOfShiftPulse
+  │  └─(No stored procedures found)
+  ├─📊 Function: isShiftChanged
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\schedule\sp\code.py
+  ├─📊 Function: getNextJob
+  │  ├─💾 SP: stp_getNextJob
+  │  │  ├─🗃️ Table: ERP
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getAllEquipmentSchedule
+  │  ├─💾 SP: stp_getAllEquipmentSchedule
+  │  │  ├─🗃️ Table: Lines
+  │  │  ├─🗃️ Table: [schedule]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: productcodes
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: runConsumeMaterials
+  │  ├─💾 SP: stp_runConsumeMaterials
+  │  │  ├─🗃️ Table: @ID,
+  │  │  ├─🗃️ Table: @MaterialTable
+  │  │  ├─🗃️ Table: [materiallots]
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: mat_cursor
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: getMaterials
+  │  ├─💾 SP: stp_getMaterials
+  │  │  ├─🗃️ Table: [materials]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: materiallots
+  ├─📊 Function: getMaterialLots
+  │  ├─💾 SP: stp_getMaterialLots
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: materiallots
+  ├─📊 Function: runEnd
+  │  ├─💾 SP: stp_runEnd
+  │  │  ├─🗃️ Table: #LineRunOEE
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: Run
+  │  │  ├─🗃️ Table: Schedule
+  │  │  ├─🗃️ Table: Sechedule/WO
+  │  │  ├─🗃️ Table: config
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: run
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: that
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getScheduleID
+  │  ├─💾 SP: stp_getScheduleIDFromTag
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: the
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: startRun
+  │  ├─💾 SP: stp_runStart
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: runs
+  │  │  └─🗃️ Table: schedule
+  ├─📊 Function: fb_resequenceSchedule
+  │  ├─💾 SP: stp_resequenceSchedule
+  │  │  └─(No tables found)
+  ├─📊 Function: fb_woMoveDeleteTracking
+  │  ├─💾 SP: stp_woMoveDeleteTracking
+  │  │  └─(No tables found)
+  ├─📊 Function: fb_erpUpdate
+  │  ├─💾 SP: stp__ERPUpdate
+  │  │  └─(No tables found)
+  ├─📊 Function: fb_addPastProduction
+  │  ├─💾 SP: stp_addPastProduction
+  │  │  └─(No tables found)
+  ├─📊 Function: testFunction
+  │  └─(No stored procedures found)
+  ├─📊 Function: addMaterialLimit
+  │  ├─💾 SP: stp_addMaterialLimit
+  │  │  ├─🗃️ Table: [materiallimits]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: materiallimits
+  ├─📊 Function: deleteMaterialLimit
+  │  ├─💾 SP: stp_deleteMaterialLimit
+  │  │  ├─🗃️ Table: [materiallimits]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: materiallimits
+  ├─📊 Function: getMaterialLimits
+  │  ├─💾 SP: stp_getMaterialLimits
+  │  │  ├─🗃️ Table: [materiallimits]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: updateMaterialLimit
+  │  ├─💾 SP: stp_updateMaterialLimit
+  │  │  ├─🗃️ Table: [materiallimits]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: materiallimits
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: getMaterialByName
+  │  ├─💾 SP: stp_getMaterialByName
+  │  │  ├─🗃️ Table: [materials]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getMaterialByID
+  │  ├─💾 SP: stp_getMaterialByID
+  │  │  ├─🗃️ Table: [materials]
+  │  │  └─🗃️ Table: interfering
+
+📄 mes_gateway\ignition\script-python\mes\staffManagement\periodic\code.py
+  ├─📊 Function: getAndConvertUsers
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateUserAccess
+  │  ├─💾 SP: stp_updateUserAcessTable
+  │  │  └─(No tables found)
+
+📄 mes_gateway\ignition\script-python\mes\staffManagement\sp\code.py
+  ├─📊 Function: addCertification
+  │  ├─💾 SP: stp_addCertification
+  │  │  ├─🗃️ Table: [certifications]
+  │  │  ├─🗃️ Table: certifications
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: addRequirement
+  │  ├─💾 SP: stp_addRequirement
+  │  │  └─(No tables found)
+  ├─📊 Function: addUserCertificationLink
+  │  ├─💾 SP: stp_addUserCertificationLink
+  │  │  ├─🗃️ Table: [usersCertificationsLink]
+  │  │  ├─🗃️ Table: certifications
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: userCertificationsLink
+  │  │  └─🗃️ Table: usersCertificationsLink
+  ├─📊 Function: addUserRequirementLink
+  │  ├─💾 SP: stp_addUserRequirementLink
+  │  │  └─(No tables found)
+  ├─📊 Function: addCellRequirementLink
+  │  ├─💾 SP: stp_addCellRequirementLink
+  │  │  └─(No tables found)
+  ├─📊 Function: getUserCertificationLink
+  │  ├─💾 SP: stp_getUserCertificationLink
+  │  │  ├─🗃️ Table: [usersCertificationsLink]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getUserRequirementLink
+  │  ├─💾 SP: stp_getUserRequirementLink
+  │  │  └─(No tables found)
+  ├─📊 Function: getCellRequirementLink
+  │  ├─💾 SP: stp_getCellRequirementLink
+  │  │  └─(No tables found)
+  ├─📊 Function: updateUserCertificationLink
+  │  ├─💾 SP: stp_updateUserCertificationLink
+  │  │  ├─🗃️ Table: [usersCertificationsLink]
+  │  │  ├─🗃️ Table: documents
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: statement
+  │  │  └─🗃️ Table: usersCertificationsLink
+  ├─📊 Function: updateUserRequirementLink
+  │  ├─💾 SP: stp_updateUserRequirementLink
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_stp_updateUserRequirementLink
+  │  │  └─(No tables found)
+  ├─📊 Function: deleteUserCertificationLink
+  │  ├─💾 SP: stp_deleteUserCertificationLink
+  │  │  ├─🗃️ Table: [usersCertificationsLink]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: userCertificationLink
+  │  │  └─🗃️ Table: usersCertificationsLink
+  ├─📊 Function: deleteUserRequirementLink
+  │  ├─💾 SP: stp_deleteUserRequirementLink
+  │  │  └─(No tables found)
+  ├─📊 Function: deleteCellRequirementLink
+  │  ├─💾 SP: stp_deleteCellRequirementLink
+  │  │  └─(No tables found)
+  ├─📊 Function: getCertifications
+  │  ├─💾 SP: stp_getCertifications
+  │  │  ├─🗃️ Table: [certifications]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getRequirements
+  │  ├─💾 SP: stp_getRequirements
+  │  │  └─(No tables found)
+  ├─📊 Function: deleteCertification
+  │  ├─💾 SP: stp_deleteCertification
+  │  │  ├─🗃️ Table: [certifications]
+  │  │  ├─🗃️ Table: certifications
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteRequirement
+  │  ├─💾 SP: stp_deleteCertification
+  │  │  ├─🗃️ Table: [certifications]
+  │  │  ├─🗃️ Table: certifications
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_deleteRequirement
+  │  │  └─(No tables found)
+  ├─📊 Function: getUserCertificationLinkAndUnlinkForUser
+  │  ├─💾 SP: stp_getUserCertificationLinkAndUnlinkForUser
+  │  │  ├─🗃️ Table: [certifications]
+  │  │  ├─🗃️ Table: [usersCertificationsLink]
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getUserRequirementLinkAndUnlinkForUser
+  │  ├─💾 SP: stp_getUserRequirementLinkAndUnlinkForUser
+  │  │  └─(No tables found)
+  ├─📊 Function: getCellRequirementLinkAndUnlinkForCell
+  │  ├─💾 SP: stp_getUserRequirementLinkAndUnlinkForUser
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getCellRequirementLinkAndUnlinkForCell
+  │  │  └─(No tables found)
+  ├─📊 Function: updateCertification
+  │  ├─💾 SP: stp_updateCertification
+  │  │  ├─🗃️ Table: [certifications]
+  │  │  ├─🗃️ Table: certifications
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: statement
+  ├─📊 Function: updateRequirement
+  │  ├─💾 SP: stp_updateRequirement
+  │  │  └─(No tables found)
+  ├─📊 Function: addAssignedTask
+  │  ├─💾 SP: stp_addAssignedTask
+  │  │  ├─🗃️ Table: [assignedtasks]
+  │  │  ├─🗃️ Table: assignedtasks
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: tasks
+  │  ├─💾 SP: stp_addTask
+  │  │  ├─🗃️ Table: [tasks]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: tasks
+  ├─📊 Function: addTask
+  │  ├─💾 SP: stp_addTask
+  │  │  ├─🗃️ Table: [tasks]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: tasks
+  ├─📊 Function: addTaskCellLink
+  │  ├─💾 SP: stp_addTaskCellLink
+  │  │  ├─🗃️ Table: [taskcelllink]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: taskcelllink
+  │  │  └─🗃️ Table: tasks
+  ├─📊 Function: addTaskFrequency
+  │  ├─💾 SP: stp_addTaskFrequency
+  │  │  ├─🗃️ Table: [taskfrequency]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: taskfrequency
+  ├─📊 Function: addTaskType
+  │  ├─💾 SP: stp_addTaskType
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: tasktypes
+  ├─📊 Function: deleteAssignedTask
+  │  ├─💾 SP: stp_deleteAssignedTask
+  │  │  ├─🗃️ Table: [assignedtasks]
+  │  │  ├─🗃️ Table: assignedtasks
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: deleteTask
+  │  ├─💾 SP: stp_deleteTask
+  │  │  ├─🗃️ Table: [tasks]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: tasks
+  ├─📊 Function: deleteTaskCellLink
+  │  ├─💾 SP: stp_deleteTaskCellLink
+  │  │  ├─🗃️ Table: [taskcelllink]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: taskcelllink
+  ├─📊 Function: deleteTaskFrequency
+  │  ├─💾 SP: stp_deleteTaskFrequency
+  │  │  ├─🗃️ Table: [taskfrequency]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: taskfrequency
+  ├─📊 Function: deleteTaskType
+  │  ├─💾 SP: stp_deleteTaskType
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: tasktypes
+  ├─📊 Function: getAssignedTasks
+  │  ├─💾 SP: stp_getAssignedTasks
+  │  │  ├─🗃️ Table: [assignedtasks]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [taskfrequency]
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  └─🗃️ Table: interfering
+  │  ├─💾 SP: stp_getTasks
+  │  │  ├─🗃️ Table: [taskfrequency]
+  │  │  ├─🗃️ Table: [tasks]
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getTasks
+  │  ├─💾 SP: stp_getTasks
+  │  │  ├─🗃️ Table: [taskfrequency]
+  │  │  ├─🗃️ Table: [tasks]
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getTaskCellLinks
+  │  ├─💾 SP: stp_getTaskCellLinks
+  │  │  ├─🗃️ Table: @LinkedTasks
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [taskcelllink]
+  │  │  ├─🗃️ Table: [tasks]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getTaskFrequencies
+  │  ├─💾 SP: stp_getTaskFrequencies
+  │  │  ├─🗃️ Table: [taskfrequency]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: getTaskTypes
+  │  ├─💾 SP: stp_getTaskTypes
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: updateAssignedTask
+  │  ├─💾 SP: stp_updateAssignedTask
+  │  │  ├─🗃️ Table: [assignedtasks]
+  │  │  ├─🗃️ Table: assignedtasks
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: statement
+  │  │  └─🗃️ Table: tasks
+  │  ├─💾 SP: stp_addTask
+  │  │  ├─🗃️ Table: [tasks]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: tasks
+  ├─📊 Function: updateTask
+  │  ├─💾 SP: stp_updateTask
+  │  │  ├─🗃️ Table: [tasks]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: statement
+  │  │  └─🗃️ Table: tasks
+  ├─📊 Function: updateTaskFrequency
+  │  ├─💾 SP: stp_updateTaskFrequency
+  │  │  ├─🗃️ Table: [taskfrequency]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: statement
+  │  │  └─🗃️ Table: taskfrequency
+  ├─📊 Function: updateTaskType
+  │  ├─💾 SP: stp_updateTaskType
+  │  │  ├─🗃️ Table: [tasktypes]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: statement
+  │  │  └─🗃️ Table: tasktypes
+  ├─📊 Function: addScheduledCell
+  │  ├─💾 SP: stp_addScheduledCell
+  │  │  ├─🗃️ Table: [scheduledcells]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: scheduledcells
+  │  │  └─🗃️ Table: tasks
+  ├─📊 Function: deleteScheduledCell
+  │  ├─💾 SP: stp_deleteScheduledCell
+  │  │  ├─🗃️ Table: [scheduledcells]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: scheduledcells
+  ├─📊 Function: getScheduledCells
+  │  ├─💾 SP: stp_getScheduledCells
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [scheduledcells]
+  │  │  ├─🗃️ Table: [usersaccess]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: updateScheduledCell
+  │  ├─💾 SP: stp_updateScheduledCell
+  │  │  ├─🗃️ Table: [scheduledcells]
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: scheduledcells
+  │  │  ├─🗃️ Table: statement
+  │  │  └─🗃️ Table: tasks
+  ├─📊 Function: updateUserTaskLink
+  │  ├─💾 SP: stp_updateUserTaskLink
+  │  │  └─(No tables found)
+  ├─📊 Function: updateUserAcessTable
+  │  ├─💾 SP: stp_updateUserRolesPeriodic
+  │  │  └─(No tables found)
+
+📄 mes_gateway\ignition\script-python\mes\switchHealth\calcs\code.py
+  ├─📊 Function: addSwitch
+  │  └─(No stored procedures found)
+  ├─📊 Function: addComment
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\switchHealth\sp\code.py
+  ├─📊 Function: addSwitch
+  │  ├─💾 SP: stp_addSwitch
+  │  │  └─(No tables found)
+
+📄 mes_gateway\ignition\script-python\mes\tests\documentStorage\code.py
+  ├─📊 Function: addDocumentContent
+  │  ├─💾 SP: stp_addDocumentContent
+  │  │  ├─🗃️ Table: [documentfile]
+  │  │  ├─🗃️ Table: documentfile
+  │  │  ├─🗃️ Table: documents
+  │  │  └─🗃️ Table: interfering
+
+📄 mes_gateway\ignition\script-python\mes\tests\test\code.py
+  ├─📊 Function: logValidation
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\tool\api\code.py
+  ├─📊 Function: getAllTools
+  │  ├─💾 SP: stp_insertTool
+  │  │  └─(No tables found)
+
+📄 mes_gateway\ignition\script-python\mes\tool\sp\code.py
+  ├─📊 Function: insertTool
+  │  ├─💾 SP: stp_insertTool
+  │  │  └─(No tables found)
+
+📄 mes_gateway\ignition\script-python\mes\trace\events\code.py
+  ├─📊 Function: eventTrigger
+  │  └─(No stored procedures found)
+  ├─📊 Function: eventRouter
+  │  └─(No stored procedures found)
+  ├─📊 Function: buildMetadataJSON
+  │  └─(No stored procedures found)
+  ├─📊 Function: buildResponseDict
+  │  └─(No stored procedures found)
+  ├─📊 Function: resetTransactionStatus
+  │  └─(No stored procedures found)
+  ├─📊 Function: setTransactionStatus
+  │  └─(No stored procedures found)
+  ├─📊 Function: unknown_event
+  │  └─(No stored procedures found)
+  ├─📊 Function: CustomBatchStageComplete
+  │  ├─💾 SP: stp_insertPartHistoryRecord
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: parthistory
+  │  │  └─🗃️ Table: parts
+  ├─📊 Function: PartCreatedEvent
+  │  ├─💾 SP: stp_insertAndGetNewPart
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: parthistory
+  │  │  ├─🗃️ Table: parts
+  │  │  ├─🗃️ Table: productcodes
+  │  │  └─🗃️ Table: stp_insertAndGetNewPart
+  ├─📊 Function: PartEnteredEvent
+  │  └─(No stored procedures found)
+  ├─📊 Function: PartExitedEvent
+  │  └─(No stored procedures found)
+  ├─📊 Function: PartMarriedEvent
+  │  └─(No stored procedures found)
+  ├─📊 Function: PartCompleteEvent
+  │  └─(No stored procedures found)
+  ├─📊 Function: PartAddInventoryEvent
+  │  └─(No stored procedures found)
+  ├─📊 Function: PartRemoveInventoryEvent
+  │  └─(No stored procedures found)
+  ├─📊 Function: PartAddAccumEvent
+  │  └─(No stored procedures found)
+  ├─📊 Function: PartRemoveAccumEvent
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\trace\sp\code.py
+  ├─📊 Function: insertAndGetNewPart
+  │  ├─💾 SP: stp_insertAndGetNewPart
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: parthistory
+  │  │  ├─🗃️ Table: parts
+  │  │  ├─🗃️ Table: productcodes
+  │  │  └─🗃️ Table: stp_insertAndGetNewPart
+  ├─📊 Function: getParts
+  │  ├─💾 SP: stp_getParts
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: partdetails
+  ├─📊 Function: getPartExactLabelMatch
+  │  ├─💾 SP: stp_getPartExactLabelMatch
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: partdetails
+  ├─📊 Function: getFullPartHistory
+  │  ├─💾 SP: stp_getFullPartHistory
+  │  │  ├─🗃️ Table: Results
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: parteventtypes
+  │  │  ├─🗃️ Table: parthistory
+  │  │  ├─🗃️ Table: parts
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: results
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: insertPartHistoryRecord
+  │  ├─💾 SP: stp_insertPartHistoryRecord
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: parthistory
+  │  │  └─🗃️ Table: parts
+  ├─📊 Function: updateCompletePart
+  │  ├─💾 SP: stp_updateCompletePart
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: parts
+  │  │  └─🗃️ Table: stp_updateCompletePart'
+  ├─📊 Function: getInventories
+  │  ├─💾 SP: stp_getInventories
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: inventories
+  ├─📊 Function: addPartToInventory
+  │  ├─💾 SP: stp_addPartToInventory
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: parts
+  │  │  └─🗃️ Table: stp_AddPartToInventory'
+  ├─📊 Function: removePartFromInventory
+  │  ├─💾 SP: stp_removePartFromInventory
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: parts
+  │  │  └─🗃️ Table: stp_removePartFromInventory'
+  ├─📊 Function: getAccumulators
+  │  ├─💾 SP: stp_getAccumulators
+  │  │  ├─🗃️ Table: accumulators
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: parts
+  ├─📊 Function: addPartToAccumulator
+  │  ├─💾 SP: stp_addPartToAccumulator
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: parts
+  │  │  └─🗃️ Table: stp_addPartToAccumulator'
+  ├─📊 Function: removePartFromAccumulator
+  │  ├─💾 SP: stp_removePartFromAccumulator
+  │  │  ├─🗃️ Table: interfering
+  │  │  ├─🗃️ Table: parts
+  │  │  └─🗃️ Table: stp_removePartFromAccumulator'
+  ├─📊 Function: getMaterials
+  │  ├─💾 SP: stp_getMaterials
+  │  │  ├─🗃️ Table: [materials]
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: materiallots
+  ├─📊 Function: insertMaterial
+  │  ├─💾 SP: stp_insertAndGetNewMaterial
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: materials
+  ├─📊 Function: updateMaterial
+  │  ├─💾 SP: stp_updateMaterial
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: materials
+  ├─📊 Function: deleteMaterial
+  │  ├─💾 SP: stp_deleteMaterial
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: materials
+  ├─📊 Function: getMaterialLots
+  │  ├─💾 SP: stp_getMaterialLots
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: materiallots
+  ├─📊 Function: insertMaterialLot
+  │  ├─💾 SP: stp_insertAndGetNewMaterialLot
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: materiallots
+  ├─📊 Function: updateMaterialLot
+  │  ├─💾 SP: stp_updateMaterialLot
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: materiallots
+  ├─📊 Function: deleteMaterialLot
+  │  ├─💾 SP: stp_deleteMaterialLot
+  │  │  ├─🗃️ Table: --
+  │  │  └─🗃️ Table: materiallots
+  ├─📊 Function: addInventory
+  │  ├─💾 SP: stp_insertInventory
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: inventories
+  ├─📊 Function: addAccumulator
+  │  ├─💾 SP: stp_insertAccumulator
+  │  │  ├─🗃️ Table: accumulators
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: RemoveInventory
+  │  ├─💾 SP: stp_removeInventory
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: inventories
+  ├─📊 Function: RemoveAccumulator
+  │  ├─💾 SP: stp_removeAccumulator
+  │  │  ├─🗃️ Table: accumulators
+  │  │  └─🗃️ Table: interfering
+
+📄 mes_gateway\ignition\script-python\mes\workorder\sp\code.py
+  ├─📊 Function: testFunction
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\mes\workorder\tag\code.py
+  ├─📊 Function: fb_changeWO
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\scriptHeaders\code.py
+  ├─📊 Function: __init__
+  │  └─(No stored procedures found)
+  ├─📊 Function: getNull
+  │  └─(No stored procedures found)
+  ├─📊 Function: getDateFormat
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAllThresholds
+  │  ├─💾 SP: stp_getThresholds
+  │  │  └─(No tables found)
+  ├─📊 Function: getDb
+  │  └─(No stored procedures found)
+  ├─📊 Function: getMicro
+  │  ├─💾 SP: stp_getMicroDefinition
+  │  │  └─(No tables found)
+  ├─📊 Function: getTimePeriodDict
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAggregateDict
+  │  └─(No stored procedures found)
+  ├─📊 Function: getSiteId
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAreas
+  │  └─(No stored procedures found)
+  ├─📊 Function: getLines
+  │  └─(No stored procedures found)
+  ├─📊 Function: getCells
+  │  └─(No stored procedures found)
+  ├─📊 Function: setMicro
+  │  └─(No stored procedures found)
+  ├─📊 Function: getSiteConfigId
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTestingTimePeriod
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTestingSuccessInt
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTestingSuccessString
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTestingSiteId
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTestingSiteName
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTestingAreaId
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTestingAreaName
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTestingLineId
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTestingLineName
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTestingCellId
+  │  └─(No stored procedures found)
+  ├─📊 Function: getTestingCellName
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\unittesting\_unitTest\code.py
+  ├─📊 Function: __init__
+  │  └─(No stored procedures found)
+  ├─📊 Function: run
+  │  └─(No stored procedures found)
+  ├─📊 Function: addError
+  │  └─(No stored procedures found)
+  ├─📊 Function: addFailure
+  │  └─(No stored procedures found)
+  ├─📊 Function: addSuccess
+  │  └─(No stored procedures found)
+  ├─📊 Function: unitCustomTestSetup
+  │  └─(No stored procedures found)
+  ├─📊 Function: unitTestSetup
+  │  └─(No stored procedures found)
+  ├─📊 Function: validateAllPackages
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\unittesting\config\code.py
+  ├─📊 Function: testCasesConfig
+  │  └─(No stored procedures found)
+  ├─📊 Function: setUp
+  │  └─(No stored procedures found)
+  ├─📊 Function: tearDown
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllCells
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+  ├─📊 Function: test_getProductCodes
+  │  ├─💾 SP: stp_getProductCodes
+  │  │  ├─🗃️ Table: [productcodes]
+  │  │  └─🗃️ Table: interfering
+  ├─📊 Function: test_getCellID
+  │  ├─💾 SP: stp_getCellID
+  │  │  ├─🗃️ Table: --
+  │  │  ├─🗃️ Table: cells
+  │  │  └─🗃️ Table: lines
+  ├─📊 Function: test_getCellOrder
+  │  ├─💾 SP: stp_getCellOrder
+  │  │  ├─🗃️ Table: --
+  │  │  ├─🗃️ Table: cells
+  │  │  └─🗃️ Table: lines
+  ├─📊 Function: test_getLineConfig
+  │  ├─💾 SP: stp_getLineConfig
+  │  │  ├─🗃️ Table: --
+  │  │  └─🗃️ Table: lineconfig
+  ├─📊 Function: test_getLineCellConfig
+  │  ├─💾 SP: stp_getLineCellConfig
+  │  │  ├─🗃️ Table: --
+  │  │  └─🗃️ Table: cells
+  ├─📊 Function: test_getLineID
+  │  ├─💾 SP: stp_getLineID
+  │  │  ├─🗃️ Table: --
+  │  │  └─🗃️ Table: lines
+  ├─📊 Function: test_getLineStatesDS
+  │  ├─💾 SP: stp_getLineStatesDS
+  │  │  ├─🗃️ Table: --
+  │  │  └─🗃️ Table: states
+  ├─📊 Function: test_getThresholds
+  │  ├─💾 SP: stp_getThresholds
+  │  │  └─(No tables found)
+  ├─📊 Function: test_getCellStatesDS
+  │  ├─💾 SP: stp_getCellStatesDS
+  │  │  └─(No tables found)
+
+📄 mes_gateway\ignition\script-python\unittesting\documentManagement\code.py
+  ├─📊 Function: testCasesDocumentManagment
+  │  └─(No stored procedures found)
+  ├─📊 Function: setUp
+  │  └─(No stored procedures found)
+  ├─📊 Function: tearDown
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getUsers
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\unittesting\downtime\code.py
+  ├─📊 Function: testCasesDowntime
+  │  └─(No stored procedures found)
+  ├─📊 Function: setUp
+  │  └─(No stored procedures found)
+  ├─📊 Function: tearDown
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllCells
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+  ├─📊 Function: test_getAllDtEvents
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getCellDtEvents
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllDtEventsComposite
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllDtSummary
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllDtTop5
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllStateTimeline
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getallPlannedUnplannedDT
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\unittesting\enterprise\code.py
+  ├─📊 Function: testCasesEnterprise
+  │  └─(No stored procedures found)
+  ├─📊 Function: setUp
+  │  └─(No stored procedures found)
+  ├─📊 Function: tearDown
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllCells
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+
+📄 mes_gateway\ignition\script-python\unittesting\gateway\code.py
+  ├─📊 Function: testCasesGateway
+  │  └─(No stored procedures found)
+  ├─📊 Function: setUp
+  │  └─(No stored procedures found)
+  ├─📊 Function: tearDown
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllCells
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+
+📄 mes_gateway\ignition\script-python\unittesting\oee\code.py
+  ├─📊 Function: testCasesOEE
+  │  └─(No stored procedures found)
+  ├─📊 Function: setUp
+  │  └─(No stored procedures found)
+  ├─📊 Function: tearDown
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllCells
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+  ├─📊 Function: test_getPeriodAllLinesOEE_AQP
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getPeriodAllCellsOEE_AQP
+  │  ├─💾 SP: stp_getPeriodAllCellsOEE_AQP
+  │  │  ├─🗃️ Table: #AggregateStatesTable
+  │  │  ├─🗃️ Table: #AllCellOEE
+  │  │  ├─🗃️ Table: #AllCellsCountsAndStates
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #CellDetails
+  │  │  ├─🗃️ Table: #CellIDs
+  │  │  ├─🗃️ Table: #PreAggregatesCounts
+  │  │  ├─🗃️ Table: #ScrapTotals
+  │  │  ├─🗃️ Table: #cellIDs
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: CHE
+  │  │  ├─🗃️ Table: Cells
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: Units/Hour
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: countchangeevents
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodelines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: scrap_log
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: systembreaks
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: the
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  ├─🗃️ Table: with
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: test_getPeriodAreaOEE_AQP
+  │  ├─💾 SP: stp_getPeriodAreaOEE_AQP
+  │  │  ├─🗃️ Table: #AreaOEE
+  │  │  ├─🗃️ Table: #FilteredLinesOEE
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: to
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: test_getPeriodAreaOEETable
+  │  ├─💾 SP: stp_getPeriodAreaOEETable
+  │  │  ├─🗃️ Table: #AllLineData
+  │  │  ├─🗃️ Table: #AreaOEE
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: Schedule,
+  │  │  ├─🗃️ Table: areaConfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: assets
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: statecurrent
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: test_getPeriodSiteOEE_AQP
+  │  ├─💾 SP: stp_getPeriodSiteOEE_AQP
+  │  │  ├─🗃️ Table: #SiteLines
+  │  │  ├─🗃️ Table: #SiteOEE
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: sites
+  │  │  └─🗃️ Table: vw_productionmodel
+
+📄 mes_gateway\ignition\script-python\unittesting\quality\code.py
+  ├─📊 Function: testCasesQuality
+  │  └─(No stored procedures found)
+  ├─📊 Function: setUp
+  │  └─(No stored procedures found)
+  ├─📊 Function: tearDown
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllCells
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+
+📄 mes_gateway\ignition\script-python\unittesting\schedule\code.py
+  ├─📊 Function: testCasesSchedule
+  │  └─(No stored procedures found)
+  ├─📊 Function: setUp
+  │  └─(No stored procedures found)
+  ├─📊 Function: tearDown
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllCells
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+
+📄 mes_gateway\ignition\script-python\unittesting\staffManagement\code.py
+  ├─📊 Function: testCasesDocumentManagment
+  │  └─(No stored procedures found)
+  ├─📊 Function: setUp
+  │  └─(No stored procedures found)
+  ├─📊 Function: tearDown
+  │  └─(No stored procedures found)
+
+📄 mes_gateway\ignition\script-python\unittesting\switchHealth\code.py
+  ├─📊 Function: testCasesSwitchHealth
+  │  └─(No stored procedures found)
+  ├─📊 Function: setUp
+  │  └─(No stored procedures found)
+  ├─📊 Function: tearDown
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllCells
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+
+📄 mes_gateway\ignition\script-python\unittesting\trace\code.py
+  ├─📊 Function: testCasesTrace
+  │  └─(No stored procedures found)
+  ├─📊 Function: setUp
+  │  └─(No stored procedures found)
+  ├─📊 Function: tearDown
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllCells
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+
+📄 mes_gateway\ignition\script-python\unittesting\workorder\code.py
+  ├─📊 Function: testCasesWorkorder
+  │  └─(No stored procedures found)
+  ├─📊 Function: setUp
+  │  └─(No stored procedures found)
+  ├─📊 Function: tearDown
+  │  └─(No stored procedures found)
+  ├─📊 Function: test_getAllCells
+  │  ├─💾 SP: stp_getAllCells
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: interfering
+  │  │  └─🗃️ Table: lines
+
+📄 mes_gateway\ignition\script-python\validation\code.py
+  ├─📊 Function: isValidRegex
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\assetMap\doDelete.py
+  ├─📊 Function: doDelete
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\assetMap\doGet.py
+  ├─📊 Function: doGet
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\assetMap\doHead.py
+  ├─📊 Function: doHead
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\assetMap\doOptions.py
+  ├─📊 Function: doOptions
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\assetMap\doPatch.py
+  ├─📊 Function: doPatch
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\assetMap\doPost.py
+  ├─📊 Function: doPost
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\assetMap\doPut.py
+  ├─📊 Function: doPut
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\assetMap\doTrace.py
+  ├─📊 Function: doTrace
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\getAssetMapData\doDelete.py
+  ├─📊 Function: doDelete
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\getAssetMapData\doGet.py
+  ├─📊 Function: doGet
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\getAssetMapData\doHead.py
+  ├─📊 Function: doHead
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\getAssetMapData\doOptions.py
+  ├─📊 Function: doOptions
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\getAssetMapData\doPatch.py
+  ├─📊 Function: doPatch
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\getAssetMapData\doPost.py
+  ├─📊 Function: doPost
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\getAssetMapData\doPut.py
+  ├─📊 Function: doPut
+  │  └─(No stored procedures found)
+
+📄 mes_ui\com.inductiveautomation.webdev\resources\getAssetMapData\doTrace.py
+  ├─📊 Function: doTrace
+  │  └─(No stored procedures found)
+
+📄 mes_ui\ignition\script-python\mes\oee\periodic\code.py
+  ├─📊 Function: calcLineOEEHour
+  │  └─(No stored procedures found)
+  ├─📊 Function: calcLineOEERun
+  │  └─(No stored procedures found)
+  ├─📊 Function: getAllLinesOEE_AQP
+  │  ├─💾 SP: stp_getPeriodAllLinesOEE_AQP
+  │  │  ├─🗃️ Table: #AggregateStatesTable
+  │  │  ├─🗃️ Table: #AllLinesCountsAndStates
+  │  │  ├─🗃️ Table: #AllLinesOEE
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #LineDetails
+  │  │  ├─🗃️ Table: #LineIDs
+  │  │  ├─🗃️ Table: #PreAggregatesCounts
+  │  │  ├─🗃️ Table: #ScrapTotals
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: CHE
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: Units/Hour
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: countchangeevents
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodelines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: scrap_log
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: systembreaks
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: the
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  ├─🗃️ Table: with
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getAllCellsOEE_AQP
+  │  ├─💾 SP: stp_getPeriodAllCellsOEE_AQP
+  │  │  ├─🗃️ Table: #AggregateStatesTable
+  │  │  ├─🗃️ Table: #AllCellOEE
+  │  │  ├─🗃️ Table: #AllCellsCountsAndStates
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #CellDetails
+  │  │  ├─🗃️ Table: #CellIDs
+  │  │  ├─🗃️ Table: #PreAggregatesCounts
+  │  │  ├─🗃️ Table: #ScrapTotals
+  │  │  ├─🗃️ Table: #cellIDs
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: CHE
+  │  │  ├─🗃️ Table: Cells
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: Units/Hour
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: countchangeevents
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodelines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: scrap_log
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: systembreaks
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: the
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  ├─🗃️ Table: with
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getCellsOEE_AQPByLine
+  │  ├─💾 SP: stp_getPeriodAllCellsOEE_AQP
+  │  │  ├─🗃️ Table: #AggregateStatesTable
+  │  │  ├─🗃️ Table: #AllCellOEE
+  │  │  ├─🗃️ Table: #AllCellsCountsAndStates
+  │  │  ├─🗃️ Table: #AllStatesTable
+  │  │  ├─🗃️ Table: #CellDetails
+  │  │  ├─🗃️ Table: #CellIDs
+  │  │  ├─🗃️ Table: #PreAggregatesCounts
+  │  │  ├─🗃️ Table: #ScrapTotals
+  │  │  ├─🗃️ Table: #cellIDs
+  │  │  ├─🗃️ Table: #currentlineshifts
+  │  │  ├─🗃️ Table: #lineIDs
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: CHE
+  │  │  ├─🗃️ Table: Cells
+  │  │  ├─🗃️ Table: GetTimeRange
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: Units/Hour
+  │  │  ├─🗃️ Table: [areas]
+  │  │  ├─🗃️ Table: [cells]
+  │  │  ├─🗃️ Table: [lines]
+  │  │  ├─🗃️ Table: [statecurrent]
+  │  │  ├─🗃️ Table: [vw_currentsystemshifts]
+  │  │  ├─🗃️ Table: a
+  │  │  ├─🗃️ Table: cellconfig
+  │  │  ├─🗃️ Table: cells
+  │  │  ├─🗃️ Table: countchangeevents
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodelines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: scrap_log
+  │  │  ├─🗃️ Table: statechangeevents
+  │  │  ├─🗃️ Table: states
+  │  │  ├─🗃️ Table: systembreaks
+  │  │  ├─🗃️ Table: systemshifts
+  │  │  ├─🗃️ Table: the
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  ├─🗃️ Table: with
+  │  │  └─🗃️ Table: workorders
+  ├─📊 Function: getOEE_AQP
+  │  ├─💾 SP: stp_getPeriodSiteOEE_AQP
+  │  │  ├─🗃️ Table: #SiteLines
+  │  │  ├─🗃️ Table: #SiteOEE
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: sites
+  │  │  └─🗃️ Table: vw_productionmodel
+  │  ├─💾 SP: stp_getPeriodOEE_AQP
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getPeriodAreaOEE_AQP
+  │  │  ├─🗃️ Table: #AreaOEE
+  │  │  ├─🗃️ Table: #FilteredLinesOEE
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: OEE
+  │  │  ├─🗃️ Table: areaconfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: lineconfig
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: to
+  │  │  └─🗃️ Table: vw_productionmodel
+  ├─📊 Function: getOEETable
+  │  ├─💾 SP: stp_getPeriodAreaOEETable
+  │  │  ├─🗃️ Table: #AllLineData
+  │  │  ├─🗃️ Table: #AreaOEE
+  │  │  ├─🗃️ Table: #resultsTable
+  │  │  ├─🗃️ Table: @AllLinesOEE
+  │  │  ├─🗃️ Table: Schedule,
+  │  │  ├─🗃️ Table: areaConfig
+  │  │  ├─🗃️ Table: areas
+  │  │  ├─🗃️ Table: assets
+  │  │  ├─🗃️ Table: lines
+  │  │  ├─🗃️ Table: productcodes
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: schedule
+  │  │  ├─🗃️ Table: sites
+  │  │  ├─🗃️ Table: statecurrent
+  │  │  ├─🗃️ Table: vw_productionmodel
+  │  │  └─🗃️ Table: workorders
+  │  ├─💾 SP: stp_getPeriodSiteOEETable
+  │  │  └─(No tables found)
+  │  ├─💾 SP: stp_getPeriodGroupOEETable
+  │  │  └─(No tables found)
+  ├─📊 Function: writeOEE_AQP
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeCellsOEE_AQP
+  │  └─(No stored procedures found)
+  ├─📊 Function: writeOEETable
+  │  └─(No stored procedures found)
+  ├─📊 Function: productionChartTransform_OLD
+  │  └─(No stored procedures found)
+  ├─📊 Function: productionChartTransform
+  │  └─(No stored procedures found)
+  ├─📊 Function: updateOEETablePeriodic
+  │  ├─💾 SP: stp_updateOEETablePeriodic
+  │  │  ├─🗃️ Table: ';
+  │  │  ├─🗃️ Table: runs
+  │  │  ├─🗃️ Table: successful';
+  │  │  └─🗃️ Table: the
+  ├─📊 Function: get_metrics_for_paths
+  │  └─(No stored procedures found)
