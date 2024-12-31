@@ -11,9 +11,5 @@ find.py - runs the functions to generate the dependency tree
 ## how to
 
 1. download a copy of elev8 mes from github
-2. open map.py and ensure the path to folder is correct for the Elev8 mes folder
-3. run map.py
-5. open find.py
-6. make sure SQL login information is correct
-6. run find.py
-7. use for troubleshooting
+2. ensure SQL log in info is correct
+3. run find.py
