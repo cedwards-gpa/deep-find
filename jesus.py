@@ -235,56 +235,48 @@ class DependencyAnalyzer:
             print(f"Database connection error: {str(e)}")
 
     def _find_table_references(self, sql_text):
-        """Extract table references from SQL text"""
+        """Extract table references from SQL text while avoiding false positives."""
         tables = set()
-        
-        # Pattern for direct table references (excluding temp tables)
-        permanent_table_patterns = [
-            r'FROM\s+([^\s\(\)#]+)',  # FROM clause
-            r'JOIN\s+([^\s\(\)#]+)',  # JOIN clause
-            r'INTO\s+([^\s\(\)#]+(?<!#))',  # INTO clause (not ending in #)
-            r'UPDATE\s+([^\s\(\)#]+)',  # UPDATE clause
-            r'INSERT\s+INTO\s+([^\s\(\)#]+)'  # INSERT INTO clause
+        # Remove comments
+        sql_text = re.sub(r'--.*', '', sql_text)  # Single-line comments
+        sql_text = re.sub(r'/\*.*?\*/', '', sql_text, flags=re.DOTALL)  # Multi-line comments
+    
+        # Remove string literals
+        sql_text = re.sub(r"'([^']|'')*'", '', sql_text)  # Single quotes
+        sql_text = re.sub(r'"([^"]|"")*"', '', sql_text)  # Double quotes
+    
+        # Define patterns for table references
+        table_patterns = [
+            r'\bFROM\s+([\w\.\[\]]+)',  # FROM clause
+            r'\bJOIN\s+([\w\.\[\]]+)',  # JOIN clause
+            r'\bINTO\s+([\w\.\[\]]+)',  # INTO clause
+            r'\bUPDATE\s+([\w\.\[\]]+)',  # UPDATE clause
+            r'\bINSERT\s+INTO\s+([\w\.\[\]]+)',  # INSERT INTO clause
         ]
-        
+    
         # Exclude list for common false positives
         exclude_list = {
-            'dbo', 'INTO', 'FROM', 'JOIN', 'UPDATE', 'INSERT',
-            'WHERE', 'AND', 'OR', 'NULL', 'NOT', 'AS', 'ON',
-            'WITH', 'THE', 'A', 'AN', 'IS', 'IN'
+            'dbo', 'INTO', 'FROM', 'JOIN', 'UPDATE', 'INSERT', 'WHERE', 'AND', 'OR', 
+            'NULL', 'NOT', 'AS', 'ON', 'WITH', 'SET', 'TABLE', 'VALUES', 'OUTPUT'
         }
-        
-        # Find permanent tables
-        for pattern in permanent_table_patterns:
+    
+        # Extract table names
+        for pattern in table_patterns:
             matches = re.finditer(pattern, sql_text, re.IGNORECASE)
             for match in matches:
                 table_ref = match.group(1).strip()
-                # Handle schema.table format
-                if '.' in table_ref:
-                    parts = table_ref.split('.')
-                    table_name = parts[-1]  # Get the last part after schema
+                # Handle schema.table or [schema].[table] format
+                if '.' in table_ref or '[' in table_ref:
+                    parts = re.split(r'[.\[\]]+', table_ref)
+                    table_name = parts[-1]  # Extract table name
                     if table_name.lower() not in exclude_list:
                         tables.add(table_name)
                 else:
                     if table_ref.lower() not in exclude_list:
                         tables.add(table_ref)
-        
-        # Find temporary tables (preserving the # prefix)
-        temp_pattern = r'(#\w+)'
-        for create_pattern in [
-            r'CREATE\s+TABLE\s+(#\w+)',  # CREATE TABLE
-            r'INTO\s+(#\w+)',            # INTO
-            r'FROM\s+(#\w+)',            # FROM
-            r'JOIN\s+(#\w+)',            # JOIN
-            r'UPDATE\s+(#\w+)',          # UPDATE
-            r'INSERT\s+INTO\s+(#\w+)'    # INSERT INTO
-        ]:
-            matches = re.finditer(create_pattern, sql_text, re.IGNORECASE)
-            for match in matches:
-                temp_table = match.group(1)
-                tables.add(temp_table)  # Add with # prefix
-        
-        return sorted(tables)  # Sort for consistent output
+    
+        # Return sorted and deduplicated tables
+        return sorted(tables)
 
 
     def load_existing_sp_data(self, filename):
