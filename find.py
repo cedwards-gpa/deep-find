@@ -1,17 +1,22 @@
 from jesus import DependencyAnalyzer, ScriptFinder
+from dotenv import load_dotenv
 import json
 import os
 
-finder=ScriptFinder()
+load_dotenv()
 
-# Generate and save JSON
-json_str = finder.generate_json(r"C:\Users\cedwards\Documents\Funner\Elev8", output_file="structure.json")
+finder = ScriptFinder()
+json_str = finder.generate_json(os.getenv('BASE_PATH'), "structure.json")
 
-
-# Initialize analyzer
 analyzer = DependencyAnalyzer(
-    base_path=r"C:\Users\cedwards\Documents\Funner\Elev8",
-    connection_string="DRIVER={SQL Server};SERVER=localhost;DATABASE=MES;UID=sa;PWD=GPAsvr230"
+    base_path=os.getenv('BASE_PATH'),
+    connection_string = (
+    f"DRIVER={{{os.getenv('DB_DRIVER')}}};"
+    f"SERVER={os.getenv('DB_SERVER')};"
+    f"DATABASE={os.getenv('DB_NAME')};"
+    f"UID={os.getenv('DB_USER')};"
+    f"PWD={os.getenv('DB_PASSWORD')}"
+)
 )
 
 # Try database analysis first
@@ -29,3 +34,5 @@ for file_info in structure['s']:
 analyzer.generate_tree_report('dependency_tree.json')
 with open('dependency_tree.txt', 'w', encoding='utf-8') as f:
     analyzer.print_tree(f)
+
+print('Done!')
