@@ -1,0 +1,63 @@
+
+Unused Tables Report:
+===================
+
+📊 Table: materiallotusage
+  ├─ Has Data: ❌
+  └─ Row Count: 0
+
+📊 Table: productcodeunitofmeasurements
+  ├─ Has Data: ✅
+  └─ Row Count: 3
+
+📊 Table: materiallimits
+  ├─ Has Data: ❌
+  └─ Row Count: 0
+
+📊 Table: counttag
+  ├─ Has Data: ❌
+  └─ Row Count: 0
+
+📊 Table: linesegments
+  ├─ Has Data: ❌
+  └─ Row Count: 0
+
+📊 Table: parteventtypegroups
+  ├─ Has Data: ✅
+  └─ Row Count: 1
+
+📊 Table: modechangehistory
+  ├─ Has Data: ❌
+  └─ Row Count: 0
+
+📊 Table: testattributelimitreference
+  ├─ Has Data: ❌
+  └─ Row Count: 0
+
+📊 Table: groups
+  ├─ Has Data: ❌
+  └─ Row Count: 0
+
+📊 Table: systemtimeconversion
+  ├─ Has Data: ✅
+  └─ Row Count: 1
+
+📊 Table: segmentmaterials
+  ├─ Has Data: ❌
+  └─ Row Count: 0
+
+📊 Table: countchangehistory
+  ├─ Has Data: ❌
+  └─ Row Count: 0
+
+📊 Table: testattributelimits
+  ├─ Has Data: ❌
+  └─ Row Count: 0
+
+📊 Table: counttype
+  ├─ Has Data: ✅
+  └─ Row Count: 3
+
+📊 Table: cellsegments
+  ├─ Has Data: ❌
+  └─ Row Count: 0

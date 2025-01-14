@@ -36,3 +36,14 @@ with open('dependency_tree.txt', 'w', encoding='utf-8') as f:
     analyzer.print_tree(f)
 
 print('Done!')
+
+
+current_dir = os.getcwd()
+
+# After your existing analysis
+analyzer.analyze_database()
+analyzer.analyze_file(os.path.join(current_dir, 'dependency_tree.json'))
+
+# Generate the unused tables report
+with open('unused_tables_report.txt', 'w', encoding='utf-8') as f:
+    analyzer.print_unused_tables_report(f)

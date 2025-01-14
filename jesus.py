@@ -369,3 +369,66 @@ class DependencyAnalyzer:
                     write_line("  │  └─(No stored procedures found)")
         
         return "\n".join(output_lines)
+    
+    def analyze_unused_tables(self):
+        """Find tables not referenced by any stored procedures and check if they contain data"""
+        try:
+            with pyodbc.connect(self.conn_str) as conn:
+                cursor = conn.cursor()
+                
+                # Get all tables in database
+                cursor.execute("""
+                    SELECT TABLE_NAME 
+                    FROM INFORMATION_SCHEMA.TABLES 
+                    WHERE TABLE_TYPE = 'BASE TABLE'
+                    AND TABLE_SCHEMA = 'dbo'
+                """)
+                all_tables = {row.TABLE_NAME for row in cursor.fetchall()}
+                
+                # Get tables used in stored procedures 
+                used_tables = set()
+                for tables in self.dependencies['sp_to_tables'].values():
+                    used_tables.update(tables)
+                
+                # Find unused tables
+                unused_tables = all_tables - used_tables
+                
+                # Check if unused tables have data
+                unused_tables_status = {}
+                for table in unused_tables:
+                    cursor.execute(f"SELECT COUNT(*) as count FROM [{table}]")
+                    row_count = cursor.fetchone().count
+                    unused_tables_status[table] = {
+                        'has_data': row_count > 0,
+                        'row_count': row_count
+                    }
+                
+                return unused_tables_status
+                    
+        except Exception as e:
+            print(f"Error analyzing unused tables: {str(e)}")
+            return {}
+
+    def print_unused_tables_report(self, output_file=None):
+        """Generate a report of unused tables"""
+        unused_tables = self.analyze_unused_tables()
+        
+        output_lines = []
+        def write_line(line):
+            if output_file:
+                print(line, file=output_file)
+            output_lines.append(line)
+        
+        write_line("\nUnused Tables Report:")
+        write_line("===================")
+        
+        if not unused_tables:
+            write_line("No unused tables found.")
+            return
+        
+        for table, status in unused_tables.items():
+            write_line(f"\n📊 Table: {table}")
+            write_line(f"  ├─ Has Data: {'✅' if status['has_data'] else '❌'}")
+            write_line(f"  └─ Row Count: {status['row_count']:,}")
+        
+        return "\n".join(output_lines)
